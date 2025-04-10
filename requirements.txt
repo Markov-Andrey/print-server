@@ -1,0 +1,4 @@
+fastapi
+pydantic
+pywin32
+uvicorn
