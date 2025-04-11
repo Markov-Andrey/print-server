@@ -11,7 +11,7 @@ def print_datamatrix():
             svg_data = file.read()
 
         # Конвертация SVG → PNG
-        tmp_png = "tmp1.png"
+        tmp_png = "tmp/tmp1.png"
         with WandImage(blob=svg_data.encode('utf-8'), format='svg') as img:
             img.resize(int(10 * 37.795), int(10 * 37.795))  # 5x5 см в пикселях
             img.format = 'png'
