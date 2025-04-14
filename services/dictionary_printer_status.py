@@ -31,7 +31,6 @@ printer_status_constants = {
 
 
 def get_printer_status_by_hex(hex_value: int):
-    # Получаем статус принтера по hex значению, учитывая множественные флаги
     status_list = []
 
     if hex_value == 0:

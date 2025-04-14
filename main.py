@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Form
+import win32print
 
-from fastapi.responses import Response
 from api.printers import get_available_printers
 from api.printer import get_printer_capabilities
 from api.pillow import generate_collage
