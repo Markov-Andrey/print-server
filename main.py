@@ -13,11 +13,6 @@ from api.printer_job_delete import delete_print_job
 app = FastAPI()
 
 
-@app.get("/favicon.ico")
-async def handle():
-    return Response(status_code=204)  # Нет содержимого
-
-
 @app.post("/print")
 async def handle(file_name: str, printer_name: str, file_content_base64: str):
     return handle_print_request(file_name, printer_name, file_content_base64)
