@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Form
 
 from fastapi.responses import Response
 from api.printers import get_available_printers
@@ -27,7 +27,8 @@ async def handle():
 
 @app.get("/printers")
 async def handle():
-    return {"printers": get_available_printers()}
+    """Возвращает список доступных принтеров в системе."""
+    return get_available_printers()
 
 
 @app.get("/printer")
@@ -41,8 +42,12 @@ async def handle():
     return print_datamatrix()
 
 
-@app.get("/pillow")
-async def handle(grid: int = 3, gap: int = 10, border: str = "1,5,10"):
+@app.post("/pillow")
+async def handle(
+    grid: int = Form(1),
+    gap: int = Form(0),
+    border: str = Form("0,0,0,0")
+):
     return generate_collage(grid, gap, border)
 
 

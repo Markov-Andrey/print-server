@@ -7,7 +7,7 @@ from fastapi import HTTPException
 def generate_collage(grid: int, gap: int, border: str) -> dict:
     tmp = "tmp/tmp.png"
     tmp1 = "tmp/tmp1.png"
-    array = [tmp, tmp1, tmp, tmp1, tmp, tmp1, tmp, tmp1, tmp, tmp1, tmp, tmp1, tmp, tmp1, tmp, tmp1, tmp, tmp1]
+    array = [tmp, tmp1, tmp, tmp1]
 
     try:
         border_values = list(map(int, border.strip().split(",")))
