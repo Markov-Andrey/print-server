@@ -1,5 +1,8 @@
 from fastapi import FastAPI, Form
 import win32print
+import base64
+import os
+import win32com.client
 
 from api.printers import get_available_printers
 from api.printer import get_printer_capabilities
@@ -65,6 +68,45 @@ async def handle(
         border: str = Form("0,0,0,0")
 ):
     return generate_collage(grid, gap, border)
+
+
+@app.get("/test_print_docx")
+async def test_print_docx():
+    file_path = "test.docx"
+    printer_name = "ZDesigner ZT411-300dpi ZPL"
+
+    # === Чтение и кодирование в base64 ===
+    with open(file_path, "rb") as f:
+        encoded = base64.b64encode(f.read()).decode("utf-8")
+
+    # === Подготовка временного пути и удаление, если файл существует ===
+    tmp_path = os.path.abspath("temp.docx")
+    if os.path.exists(tmp_path):
+        os.remove(tmp_path)
+
+    # === Декодирование обратно и сохранение как temp.docx ===
+    with open(tmp_path, "wb") as f:
+        f.write(base64.b64decode(encoded))
+
+    # === Установка принтера и печать через Word ===
+    default_printer = win32print.GetDefaultPrinter()
+    win32print.SetDefaultPrinter(printer_name)
+
+    word = win32com.client.Dispatch("Word.Application")
+    word.Visible = False
+    doc = word.Documents.Open(tmp_path)
+    doc.PrintOut()
+    doc.Close(False)
+    word.Quit()
+
+    # === Возврат принтера по умолчанию ===
+    win32print.SetDefaultPrinter(default_printer)
+
+    return {
+        "status": "printed",
+        "printer": printer_name,
+        "original_file": file_path
+    }
 
 
 if __name__ == "__main__":
