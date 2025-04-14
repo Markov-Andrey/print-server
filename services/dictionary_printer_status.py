@@ -27,13 +27,15 @@ printer_status_constants = {
     win32print.PRINTER_STATUS_USER_INTERVENTION: "USER_INTERVENTION",
     win32print.PRINTER_STATUS_WAITING: "WAITING",
     win32print.PRINTER_STATUS_WARMING_UP: "WARMING_UP",
-    0x00000000: "ONLINE",  # For online status (not part of the constants, but directly as hex)
 }
 
 
 def get_printer_status_by_hex(hex_value: int):
-    """Получаем статус принтера по hex значению, учитывая множественные флаги."""
+    # Получаем статус принтера по hex значению, учитывая множественные флаги
     status_list = []
+
+    if hex_value == 0:
+        status_list.append("ONLINE")
 
     for flag, name in printer_status_constants.items():
         if hex_value & flag:
