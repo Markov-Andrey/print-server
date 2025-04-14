@@ -1,17 +1,23 @@
-# api/printer.py
-
+import os
 from fastapi import HTTPException
 from wand.image import Image as WandImage
 import win32print
-
+import win32api
 
 def print_datamatrix():
     try:
-        with open("datamatrix1.txt", "r", encoding="utf-8") as file:
+        # Получаем текущую рабочую директорию
+        root_dir = os.getcwd()
+        file_path = os.path.join(root_dir, 'datamatrix1.txt')
+
+        # Чтение файла
+        with open(file_path, "r", encoding="utf-8") as file:
             svg_data = file.read()
 
         # Конвертация SVG → PNG
-        tmp_png = "tmp/tmp1.png"
+        tmp_png = os.path.join(root_dir, 'tmp', 'tmp1.png')
+
+        # Конвертируем SVG в PNG с использованием Wand
         with WandImage(blob=svg_data.encode('utf-8'), format='svg') as img:
             img.resize(int(10 * 37.795), int(10 * 37.795))  # 5x5 см в пикселях
             img.format = 'png'
@@ -22,14 +28,14 @@ def print_datamatrix():
         if printer_name not in [p[2] for p in win32print.EnumPrinters(2)]:
             raise HTTPException(status_code=400, detail="Принтер не найден")
 
-        # win32api.ShellExecute(
-        #     0,
-        #     "printto",
-        #     tmp_png,
-        #     f'"{printer_name}"',
-        #     ".",
-        #     0
-        # )
+        win32api.ShellExecute(
+            0,
+            "printto",
+            tmp_png,
+            f'"{printer_name}"',
+            ".",
+            0
+        )
 
         return {"message": f"Этикетка 5x5 см отправлена на принтер: {printer_name}"}
     except Exception as e:
