@@ -65,7 +65,7 @@ async def handle():
 async def handle(
         grid: int = Form(1),
         gap: int = Form(0),
-        border: str = Form("0,0,0,0")
+        border: int = Form(0)
 ):
     return generate_collage(grid, gap, border)
 

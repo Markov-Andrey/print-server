@@ -1,48 +1,42 @@
-# pillow.py
-
 from PIL import Image as PILImage
 from fastapi import HTTPException
 
 
-def generate_collage(grid: int, gap: int, border: str) -> dict:
+def generate_collage(grid: int, gap: int, border: int) -> dict:
     tmp = "tmp/tmp.png"
-    tmp1 = "tmp/tmp1.png"
+    tmp1 = "tmp/tmp0.png"
     array = [tmp, tmp1, tmp, tmp1]
+    box_size = 150
 
     try:
-        border_values = list(map(int, border.strip().split(",")))
-        match len(border_values):
-            case 1:
-                border_top = border_right = border_bottom = border_left = border_values[0]
-            case 2:
-                border_top, border_right = border_values
-                border_bottom, border_left = border_values[0], border_values[1]
-            case 3:
-                border_top, border_right, border_bottom = border_values
-                border_left = border_values[1]
-            case 4:
-                border_top, border_right, border_bottom, border_left = border_values
-            case _:
-                raise HTTPException(status_code=400, detail="border должен быть от 1 до 4 значений")
-
-        original_img = PILImage.open(array[0])
-        original_width, original_height = original_img.size
-
         num_images = len(array)
         num_rows = (num_images + grid - 1) // grid
 
-        total_width = (original_width * grid) + (gap * (grid - 1)) + border_left + border_right
-        total_height = (original_height * num_rows) + (gap * (num_rows - 1)) + border_top + border_bottom
+        total_width = (box_size * grid) + (gap * (grid - 1)) + (border * 2)
+        total_height = (box_size * num_rows) + (gap * (num_rows - 1)) + (border * 2)
 
         new_image = PILImage.new('RGB', (total_width, total_height), (255, 255, 255))
 
         for i, img_path in enumerate(array):
             img = PILImage.open(img_path)
-            img = img.resize((original_width, original_height))
+
+            img_width, img_height = img.size
+            aspect_ratio = img_width / img_height
+
+            if aspect_ratio > 1:
+                new_width = box_size
+                new_height = int(box_size / aspect_ratio)
+            else:
+                new_height = box_size
+                new_width = int(box_size * aspect_ratio)
+
+            img = img.resize((new_width, new_height), PILImage.LANCZOS)
+
             row = i // grid
             col = i % grid
-            x = border_left + col * (original_width + gap)
-            y = border_top + row * (original_height + gap)
+            x = border + col * (box_size + gap)
+            y = border + row * (box_size + gap)
+
             new_image.paste(img, (x, y))
 
         new_image.save("tmp/result.png")

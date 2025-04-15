@@ -1,42 +1,74 @@
 import os
 from fastapi import HTTPException
 from wand.image import Image as WandImage
+from PIL import Image, ImageOps, ImageWin
 import win32print
-import win32api
+import win32ui
+from wand.color import Color
 
 def print_datamatrix():
     try:
-        # Получаем текущую рабочую директорию
+        # Настройки
+        target_width_mm = 40
+        target_height_mm = 25
+        dpi = 300
+
+        # Конвертация в пиксели
+        target_width_px = int(target_width_mm / 25.4 * dpi)
+        target_height_px = int(target_height_mm / 25.4 * dpi)
+
+        # Пути
         root_dir = os.getcwd()
         file_path = os.path.join(root_dir, 'datamatrix1.txt')
+        tmp_png = os.path.join(root_dir, 'tmp', 'tmp1.png')
 
-        # Чтение файла
+        # Чтение SVG
         with open(file_path, "r", encoding="utf-8") as file:
             svg_data = file.read()
 
-        # Конвертация SVG → PNG
-        tmp_png = os.path.join(root_dir, 'tmp', 'tmp1.png')
-
-        # Конвертируем SVG в PNG с использованием Wand
-        with WandImage(blob=svg_data.encode('utf-8'), format='svg') as img:
-            img.resize(int(10 * 37.795), int(10 * 37.795))  # 5x5 см в пикселях
+        # Рендеринг SVG в PNG через wand
+        render_dpi = dpi * 4
+        with WandImage(blob=svg_data.encode('utf-8'), format='svg', resolution=render_dpi) as img:
             img.format = 'png'
+            img.compression = 'no'
+            img.background_color = Color('white')
+            img.alpha_channel = 'remove'
             img.save(filename=tmp_png)
 
-        # Отправка на печать
+        # Открываем PNG и вписываем в нужный размер без искажения пропорций
+        pil_img = Image.open(tmp_png)
+        pil_img = ImageOps.contain(pil_img, (target_width_px, target_height_px), method=Image.LANCZOS)
+
+        # Создаем финальный холст с белым фоном
+        final_img = Image.new("RGB", (target_width_px, target_height_px), "white")
+        paste_x = (target_width_px - pil_img.width) // 2
+        paste_y = (target_height_px - pil_img.height) // 2
+        final_img.paste(pil_img, (paste_x, paste_y))
+        final_img.save(tmp_png, dpi=(dpi, dpi))  # Обновляем tmp_png
+
+        # Прямая печать через GDI
         printer_name = "ZDesigner ZT411-300dpi ZPL"
-        if printer_name not in [p[2] for p in win32print.EnumPrinters(2)]:
-            raise HTTPException(status_code=400, detail="Принтер не найден")
+        hprinter = win32print.OpenPrinter(printer_name)
+        hdc = win32ui.CreateDC()
+        hdc.CreatePrinterDC(printer_name)
 
-        win32api.ShellExecute(
-            0,
-            "printto",
-            tmp_png,
-            f'"{printer_name}"',
-            ".",
-            0
-        )
+        # Начинаем печать
+        hdc.StartDoc("DataMatrix Label")
+        hdc.StartPage()
 
-        return {"message": f"Этикетка 5x5 см отправлена на принтер: {printer_name}"}
+        # Загружаем финальное изображение
+        img = Image.open(tmp_png)
+        dib = ImageWin.Dib(img)
+
+        # Отрисовка изображения в левом верхнем углу (можно сдвигать координаты)
+        dib.draw(hdc.GetHandleOutput(), (0, 0, target_width_px, target_height_px))
+
+        hdc.EndPage()
+        hdc.EndDoc()
+        hdc.DeleteDC()
+        win32print.ClosePrinter(hprinter)
+
+        return {"message": f"Этикетка {target_width_mm}x{target_height_mm} мм отправлена на принтер: {printer_name}"}
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Ошибка: {str(e)}")
