@@ -5,7 +5,7 @@ from fastapi import HTTPException
 def generate_collage(grid: int, gap: int, border: int) -> dict:
     tmp = "tmp/tmp.png"
     tmp1 = "tmp/tmp0.png"
-    array = [tmp, tmp1, tmp, tmp1]
+    array = [tmp, tmp1]
     box_size = 150
 
     try:
