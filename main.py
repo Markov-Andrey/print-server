@@ -3,6 +3,7 @@ import win32print
 import base64
 import os
 import win32com.client
+from typing import List
 
 from api.printer import get_printer_capabilities
 from api.pillow import generate_collage
@@ -27,18 +28,23 @@ async def handle(
         printer: str = Form(...),
         width: int = Form(...),
         height: int = Form(...),
-        data: str = Form(...),
+        data: List[str] = Form(...),
+        grid: int = Form(1),
+        gap: int = Form(0),
+        padding_x: int = Form(0),  # left/right
+        padding_y: int = Form(0),  # top/bottom
 ):
-    return print_datamatrix(printer, width, height, data)
+    return print_datamatrix(printer, width, height, data, grid, gap, padding_x, padding_y)
 
 
 @app.post("/pillow")
 async def handle(
         grid: int = Form(1),
         gap: int = Form(0),
-        border: int = Form(0)
+        padding_x: int = Form(0),  # left/right
+        padding_y: int = Form(0),  # top/bottom
 ):
-    return generate_collage(grid, gap, border)
+    return generate_collage(grid, gap, padding_x, padding_y)
 
 
 @app.get("/test_print_docx")

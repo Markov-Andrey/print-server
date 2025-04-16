@@ -9,53 +9,66 @@ from services.zpl_converter import convert_png_to_zpl
 from services.printers_list import get_available_printers
 
 
-def print_datamatrix(printer, width, height, data):
+def print_datamatrix(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int, padding_y: int):
     if printer not in get_available_printers():
         raise HTTPException(status_code=400, detail="Error: Printer not found")
+
     try:
-        target_width_mm = width
-        target_height_mm = height
         dpi = get_printer_dpi(printer)
-
-        root_dir = os.getcwd()
-        tmp_png = os.path.join(root_dir, 'tmp', 'tmp1.png')
-
-        svg_data = base64.b64decode(data).decode('utf-8')
-
-        # Рендеринг изображения
         render_dpi = dpi * 4
-        with WandImage(blob=svg_data.encode('utf-8'), format='svg', resolution=render_dpi) as img:
-            img.format = 'png'
-            img.compression = 'no'
-            img.background_color = Color('white')
-            img.alpha_channel = 'remove'
-            img.save(filename=tmp_png)
+        tmp_dir = os.path.join(os.getcwd(), 'tmp')
+        os.makedirs(tmp_dir, exist_ok=True)
 
-        # Открываем изображение и изменяем размер с учетом параметров
-        pil_img = Image.open(tmp_png)
-        target_width_px = int(target_width_mm / 25.4 * dpi)
-        target_height_px = int(target_height_mm / 25.4 * dpi)
+        num_images = (len(data) + grid - 1) // grid
 
-        pil_img = ImageOps.contain(pil_img, (target_width_px, target_height_px), method=Image.LANCZOS)
+        gap_px = int(gap / 25.4 * dpi)
+        padding_x_px = int(padding_x / 25.4 * dpi)
+        padding_y_px = int(padding_y / 25.4 * dpi)
 
-        # Создаем финальное изображение
-        final_width_px = target_width_px
-        final_height_px = target_height_px
+        final_img_width_px = int(width / 25.4 * dpi)
+        final_img_height_px = int(height / 25.4 * dpi)
 
-        final_img = Image.new("RGB", (final_width_px, final_height_px), "white")
+        # Доступная область после вычета отступов
+        content_width_px = final_img_width_px - 2 * padding_x_px
+        content_height_px = final_img_height_px - 2 * padding_y_px
 
-        paste_x = (final_width_px - pil_img.width) // 2
-        paste_y = (final_height_px - pil_img.height) // 2
-        final_img.paste(pil_img, (paste_x, paste_y))
+        element_width_px = (content_width_px - (grid - 1) * gap_px) // grid
+        element_height_px = content_height_px
 
-        # Сохраняем с нужным dpi
-        final_img.save(tmp_png, dpi=(dpi, dpi))
+        for img_idx in range(num_images):
+            start_idx = img_idx * grid
+            end_idx = min((img_idx + 1) * grid, len(data))
+            group_data = data[start_idx:end_idx]
 
-        # Печать
-        zpl = convert_png_to_zpl(tmp_png)
-        # send_zpl_to_printer(zpl, printer)
+            final_img = Image.new("RGB", (final_img_width_px, final_img_height_px), "white")
 
-        return {"message": f"Этикетка {target_width_mm}x{target_height_mm} мм отправлена на принтер: {printer}"}
+            for idx, base64_svg in enumerate(group_data):
+                svg_data = base64.b64decode(base64_svg).decode('utf-8')
+                tmp_png = os.path.join(tmp_dir, f'tmp_{img_idx}_{idx}.png')
+
+                with WandImage(blob=svg_data.encode('utf-8'), format='svg', resolution=render_dpi) as img:
+                    img.format = 'png'
+                    img.compression = 'no'
+                    img.background_color = Color('white')
+                    img.alpha_channel = 'remove'
+                    img.save(filename=tmp_png)
+
+                pil_img = Image.open(tmp_png)
+                pil_img = ImageOps.contain(pil_img, (element_width_px, element_height_px), method=Image.LANCZOS)
+
+                # Учитываем padding при позиционировании
+                paste_x = padding_x_px + idx * (element_width_px + gap_px)
+                paste_y = padding_y_px + (element_height_px - pil_img.height) // 2
+
+                final_img.paste(pil_img, (paste_x, paste_y))
+
+            tmp_png_final = os.path.join(tmp_dir, f'tmp_final_{img_idx}.png')
+            final_img.save(tmp_png_final, dpi=(dpi, dpi))
+
+            zpl = convert_png_to_zpl(tmp_png_final)
+            # send_zpl_to_printer(zpl, printer)
+
+        return {"message": f"Printed {len(data)} labels ({width}x{height}mm) to printer: {printer}"}
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
