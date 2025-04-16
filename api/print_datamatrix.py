@@ -8,13 +8,11 @@ from wand.color import Color
 from services.zpl_converter import convert_png_to_zpl
 
 
-# Функция для печати DataMatrix
-def print_datamatrix():
+def print_datamatrix(printer, width, height):
     try:
-        # Настройки печати (в миллиметрах)
-        target_width_mm = 40
-        target_height_mm = 25
-        dpi = 300  # Константа DPI
+        target_width_mm = width
+        target_height_mm = height
+        dpi = get_printer_dpi(printer)
 
         # Рабочие директории
         root_dir = os.getcwd()
@@ -54,21 +52,29 @@ def print_datamatrix():
         # Сохраняем с нужным dpi
         final_img.save(tmp_png, dpi=(dpi, dpi))
 
-        # Проверка принтера
-        printer_name = "ZDesigner ZT411-300dpi ZPL"
-
         # Печать
         zpl = convert_png_to_zpl(tmp_png)
-        send_zpl_to_printer(zpl, printer_name)
+        send_zpl_to_printer(zpl, printer)
 
-        return {"message": f"Этикетка {target_width_mm}x{target_height_mm} мм отправлена на принтер: {printer_name}"}
+        return {"message": f"Этикетка {target_width_mm}x{target_height_mm} мм отправлена на принтер: {printer}"}
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Ошибка: {str(e)}")
 
 
-def send_zpl_to_printer(zpl, printer_name):
-    hprinter = win32print.OpenPrinter(printer_name)
+def get_printer_dpi(printer):
+    handle = win32print.OpenPrinter(printer)
+    try:
+        properties = win32print.GetPrinter(handle, 2)
+        devmode = properties["pDevMode"]
+        dpi = devmode.PrintQuality
+        return dpi
+    finally:
+        win32print.ClosePrinter(handle)
+
+
+def send_zpl_to_printer(zpl, printer):
+    hprinter = win32print.OpenPrinter(printer)
     try:
         win32print.StartDocPrinter(hprinter, 1, ("ZPL Label", None, "RAW"))
         win32print.StartPagePrinter(hprinter)

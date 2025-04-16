@@ -9,9 +9,6 @@ from api.printer import get_printer_capabilities
 from api.pillow import generate_collage
 from api.print import handle_print_request
 from api.print_datamatrix import print_datamatrix
-from api.printer_jobs import get_printer_jobs
-from api.printer_job_restart import restart_print_job
-from api.printer_job_delete import delete_print_job
 
 app = FastAPI()
 
@@ -38,27 +35,13 @@ async def handle():
     return get_printer_capabilities(printer)
 
 
-@app.post("/printer_jobs")
-async def printer_jobs(printer: str = Form(...)):
-    """Возвращает очередь печати для указанного принтера"""
-    return get_printer_jobs(printer)
-
-
-@app.post("/printer_job_restart")
-async def restart_job(printer: str = Form(...), job_id: int = Form(...)):
-    """Перезапустить задание печати по ID и имени принтера"""
-    return restart_print_job(printer, job_id)
-
-
-@app.post("/printer_job_delete")
-async def restart_job(printer: str = Form(...), job_id: int = Form(...)):
-    """Удалить задание печати по ID и имени принтера"""
-    return delete_print_job(printer, job_id)
-
-
-@app.get("/print-datamatrix")
-async def handle():
-    return print_datamatrix()
+@app.post("/print-datamatrix")
+async def handle(
+        printer: str = Form(...),
+        width: str = Form(...),
+        height: str = Form(...)
+):
+    return print_datamatrix(printer, width, height)
 
 
 @app.post("/pillow")
