@@ -4,24 +4,21 @@ from wand.image import Image as WandImage
 from PIL import Image, ImageOps
 import win32print
 import win32api
+import base64
 from wand.color import Color
 from services.zpl_converter import convert_png_to_zpl
 
 
-def print_datamatrix(printer, width, height):
+def print_datamatrix(printer, width, height, data):
     try:
         target_width_mm = width
         target_height_mm = height
         dpi = get_printer_dpi(printer)
 
-        # Рабочие директории
         root_dir = os.getcwd()
-        file_path = os.path.join(root_dir, 'datamatrix1.txt')
         tmp_png = os.path.join(root_dir, 'tmp', 'tmp1.png')
 
-        # Чтение SVG
-        with open(file_path, "r", encoding="utf-8") as file:
-            svg_data = file.read()
+        svg_data = base64.b64decode(data).decode('utf-8')
 
         # Рендеринг изображения
         render_dpi = dpi * 4

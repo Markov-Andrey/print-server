@@ -38,10 +38,11 @@ async def handle():
 @app.post("/print-datamatrix")
 async def handle(
         printer: str = Form(...),
-        width: str = Form(...),
-        height: str = Form(...)
+        width: int = Form(...),
+        height: int = Form(...),
+        data: str = Form(...),
 ):
-    return print_datamatrix(printer, width, height)
+    return print_datamatrix(printer, width, height, data)
 
 
 @app.post("/pillow")
@@ -90,6 +91,24 @@ async def test_print_docx():
         "printer": printer_name,
         "original_file": file_path
     }
+
+
+@app.get("/datamatrix")
+async def handle():
+    """Тестовый медод на кодировку base64"""
+    input_file = "datamatrix1.txt"
+    output_file = "datamatrix2.txt"
+    try:
+        with open(input_file, "rb") as file:
+            data = file.read()
+        encoded_data = base64.b64encode(data)
+        with open(output_file, "wb") as file:
+            file.write(encoded_data)
+
+        return {"message": f"{input_file} закодирован в {output_file}"}
+
+    except Exception as e:
+        return {"error": str(e)}
 
 
 if __name__ == "__main__":
