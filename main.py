@@ -4,29 +4,16 @@ import base64
 import os
 import win32com.client
 
-from api.printers import get_available_printers
 from api.printer import get_printer_capabilities
 from api.pillow import generate_collage
-from api.print import handle_print_request
 from api.print_datamatrix import print_datamatrix
 
 app = FastAPI()
 
 
-@app.post("/print")
-async def handle(file_name: str, printer_name: str, file_content_base64: str):
-    return handle_print_request(file_name, printer_name, file_content_base64)
-
-
 @app.get("/")
 async def handle():
     return {"status": "Ok"}
-
-
-@app.get("/printers")
-async def handle():
-    """Возвращает список доступных принтеров в системе."""
-    return get_available_printers()
 
 
 @app.get("/printer")

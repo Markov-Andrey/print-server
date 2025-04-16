@@ -3,13 +3,15 @@ from fastapi import HTTPException
 from wand.image import Image as WandImage
 from PIL import Image, ImageOps
 import win32print
-import win32api
 import base64
 from wand.color import Color
 from services.zpl_converter import convert_png_to_zpl
+from services.printers_list import get_available_printers
 
 
 def print_datamatrix(printer, width, height, data):
+    if printer not in get_available_printers():
+        raise HTTPException(status_code=400, detail="Error: Printer not found")
     try:
         target_width_mm = width
         target_height_mm = height
@@ -51,12 +53,12 @@ def print_datamatrix(printer, width, height, data):
 
         # Печать
         zpl = convert_png_to_zpl(tmp_png)
-        send_zpl_to_printer(zpl, printer)
+        # send_zpl_to_printer(zpl, printer)
 
         return {"message": f"Этикетка {target_width_mm}x{target_height_mm} мм отправлена на принтер: {printer}"}
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
 
 
 def get_printer_dpi(printer):
