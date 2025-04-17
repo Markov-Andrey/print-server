@@ -1,10 +1,7 @@
-import base64
-
 from fastapi import FastAPI, Form
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from typing import List
-
 from api.print_datamatrix import print_svg
 import os
 

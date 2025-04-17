@@ -2,27 +2,14 @@ import os
 from fastapi import HTTPException
 from wand.image import Image as WandImage
 from PIL import Image, ImageOps
-import win32print
 import base64
-import subprocess
 from wand.color import Color
-from services.printers_list import get_available_printers
+from services.printer_service import get_available_printers, get_printer_dpi, send_png_to_printer
 from datetime import datetime
 
 
 def mm_to_px(value, dpi):
     return int(value / 25.4 * dpi)
-
-
-def get_printer_dpi(printer):
-    handle = win32print.OpenPrinter(printer)
-    try:
-        properties = win32print.GetPrinter(handle, 2)
-        devmode = properties["pDevMode"]
-        dpi = devmode.PrintQuality
-        return dpi
-    finally:
-        win32print.ClosePrinter(handle)
 
 
 def create_tmp_dir():
@@ -82,12 +69,3 @@ def print_svg(printer: str, width: int, height: int, data: list[str], grid: int,
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error: {e}")
-
-
-def send_png_to_printer(tmp_png, printer):
-    irfanview_path = os.path.join(os.getcwd(), "tools", "irfan_view", "i_view64.exe")
-    cmd = f'"{irfanview_path}" "{tmp_png}" /print="{printer}" /silent /one'
-    result = subprocess.run(cmd, shell=True)
-
-    if result.returncode != 0:
-        raise RuntimeError(f"IrfanView error: {result.returncode}")
