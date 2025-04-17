@@ -1,9 +1,11 @@
+import base64
+
 from fastapi import FastAPI, Form
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from typing import List
 
-from api.print_datamatrix import print_datamatrix
+from api.print_datamatrix import print_svg
 import os
 
 app = FastAPI()
@@ -16,7 +18,7 @@ async def serve_documentation():
         return f.read()
 
 
-@app.post("/print-datamatrix")
+@app.post("/print-svg")
 async def handle(
         printer: str = Form(...),
         width: int = Form(...),
@@ -27,7 +29,7 @@ async def handle(
         padding_x: int = Form(0),
         padding_y: int = Form(0),
 ):
-    return print_datamatrix(printer, width, height, data, grid, gap, padding_x, padding_y)
+    return print_svg(printer, width, height, data, grid, gap, padding_x, padding_y)
 
 
 if __name__ == "__main__":

@@ -34,8 +34,8 @@ def create_tmp_dir():
     return tmp_dir
 
 
-def print_datamatrix(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int,
-                     padding_y: int):
+def print_svg(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int,
+              padding_y: int):
     if printer not in get_available_printers():
         raise HTTPException(status_code=400, detail="Error: Printer not found")
 
