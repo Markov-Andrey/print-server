@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Docs - Print Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em auto;
+            max-width: 800px;
+            line-height: 1.6;
+            color: #333;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .param {
+            margin-bottom: 1em;
+        }
+        .method {
+            font-weight: bold;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .post {
+            background: #00b84a;
+        }
+        .endpoint {
+            font-weight: bold;
+            font-size: 1.3em;
+            color: #222;
+        }
+        .block {
+            border: 1px solid rgba(0, 0, 0, 0.6);
+            padding: 7px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Print Server API</h1>
+    <div class="block">
+        <p>
+        <span class="method post">POST</span>
+        <span class="endpoint">/print-datamatrix</span>
+            <span>Печать набора DataMatrix-кодов по заданным параметрам</span>
+        </p>
+
+        <h2>Parameters:</h2>
+        <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
+        <div class="param"><code>width</code> (int) — ширина в миллиметрах одной страницы/этикетки (обязательный)</div>
+        <div class="param"><code>height</code> (int) — высота в миллиметрах (обязательный)</div>
+        <div class="param"><code>data</code> (List[str]) — список base64-encoded SVG (обязательный)</div>
+        <div class="param"><code>grid</code> (int) — количество ячеек по горизонтали (по умолчанию 1)</div>
+        <div class="param"><code>gap</code> (int) — отступ между ячейками в мм (по умолчанию 0)</div>
+        <div class="param"><code>padding_x</code> (int) — отступы слева/справа от границ страницы, мм (по умолчанию 0)</div>
+        <div class="param"><code>padding_y</code> (int) — отступы сверху/снизу от границ страницы, мм (по умолчанию 0)</div>
+    </div>
+</body>
+</html>

@@ -1,14 +1,19 @@
 from fastapi import FastAPI, Form
-
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import HTMLResponse
 from typing import List
+
 from api.print_datamatrix import print_datamatrix
+import os
 
 app = FastAPI()
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 
-@app.get("/")
-async def handle():
-    return {"status_server": "Ok"}
+@app.get("/", response_class=HTMLResponse)
+async def serve_documentation():
+    with open(os.path.join("static", "docs.html"), encoding="utf-8") as f:
+        return f.read()
 
 
 @app.post("/print-datamatrix")
@@ -19,8 +24,8 @@ async def handle(
         data: List[str] = Form(...),
         grid: int = Form(1),
         gap: int = Form(0),
-        padding_x: int = Form(0),  # left/right
-        padding_y: int = Form(0),  # top/bottom
+        padding_x: int = Form(0),
+        padding_y: int = Form(0),
 ):
     return print_datamatrix(printer, width, height, data, grid, gap, padding_x, padding_y)
 
