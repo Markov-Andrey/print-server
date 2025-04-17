@@ -88,17 +88,21 @@ async def test_print_docx():
 
 @app.get("/datamatrix")
 async def handle():
-    """Тестовый медод на кодировку base64"""
+    """Тестовый метод: построчная base64-кодировка"""
     input_file = "datamatrix1.txt"
     output_file = "datamatrix2.txt"
-    try:
-        with open(input_file, "rb") as file:
-            data = file.read()
-        encoded_data = base64.b64encode(data)
-        with open(output_file, "wb") as file:
-            file.write(encoded_data)
 
-        return {"message": f"{input_file} закодирован в {output_file}"}
+    try:
+        with open(input_file, "r", encoding="utf-8") as file:
+            lines = file.readlines()
+
+        with open(output_file, "w", encoding="utf-8") as file:
+            for line in lines:
+                clean_line = line.rstrip("\n\r")
+                encoded = base64.b64encode(clean_line.encode("utf-8")).decode("utf-8")
+                file.write(encoded + "\n")
+
+        return {"message": f"{input_file} закодирован построчно в {output_file}"}
 
     except Exception as e:
         return {"error": str(e)}

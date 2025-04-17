@@ -66,7 +66,7 @@ def print_datamatrix(printer: str, width: int, height: int, data: list[str], gri
             final_img.save(tmp_png_final, dpi=(dpi, dpi))
 
             zpl = convert_png_to_zpl(tmp_png_final)
-            # send_zpl_to_printer(zpl, printer)
+            send_zpl_to_printer(zpl, printer)
 
         return {"message": f"Printed {len(data)} labels ({width}x{height}mm) to printer: {printer}"}
 
