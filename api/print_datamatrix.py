@@ -4,12 +4,15 @@ from wand.image import Image as WandImage
 from PIL import Image, ImageOps
 import win32print
 import base64
+import subprocess
+import time
 from wand.color import Color
 from services.zpl_converter import convert_png_to_zpl
 from services.printers_list import get_available_printers
 
 
-def print_datamatrix(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int, padding_y: int):
+def print_datamatrix(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int,
+                     padding_y: int):
     if printer not in get_available_printers():
         raise HTTPException(status_code=400, detail="Error: Printer not found")
 
@@ -65,8 +68,9 @@ def print_datamatrix(printer: str, width: int, height: int, data: list[str], gri
             tmp_png_final = os.path.join(tmp_dir, f'tmp_final_{img_idx}.png')
             final_img.save(tmp_png_final, dpi=(dpi, dpi))
 
-            zpl = convert_png_to_zpl(tmp_png_final)
-            send_zpl_to_printer(zpl, printer)
+            # zpl = convert_png_to_zpl(tmp_png_final)
+            # send_zpl_to_printer(zpl, printer)
+            send_png_to_printer(tmp_png_final, printer)
 
         return {"message": f"Printed {len(data)} labels ({width}x{height}mm) to printer: {printer}"}
 
@@ -95,3 +99,12 @@ def send_zpl_to_printer(zpl, printer):
         win32print.EndDocPrinter(hprinter)
     finally:
         win32print.ClosePrinter(hprinter)
+
+
+def send_png_to_printer(tmp_png, printer):
+    irfanview_path = r"C:\Program Files\IrfanView\i_view64.exe"
+    cmd = f'"{irfanview_path}" "{tmp_png}" /print="{printer}" /silent /one'
+    result = subprocess.run(cmd, shell=True)
+
+    if result.returncode != 0:
+        raise RuntimeError(f"IrfanView error: {result.returncode}")
