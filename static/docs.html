@@ -39,6 +39,25 @@
             padding: 7px;
             border-radius: 15px;
         }
+
+        details {
+            background-color: #f8fdff;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 6px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px;
+            background-color: #ddd;
+            border-radius: 6px;
+        }
+
+        .param {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -49,16 +68,17 @@
         <span class="endpoint">/print-svg</span>
             <span>Печать набора svg по заданным параметрам</span>
         </p>
-
-        <h2>Parameters:</h2>
-        <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
-        <div class="param"><code>width</code> (int) — ширина в миллиметрах одной страницы/этикетки (обязательный)</div>
-        <div class="param"><code>height</code> (int) — высота в миллиметрах (обязательный)</div>
-        <div class="param"><code>data</code> (List[str]) — список base64-encoded SVG (обязательный)</div>
-        <div class="param"><code>grid</code> (int) — количество ячеек по горизонтали (по умолчанию 1)</div>
-        <div class="param"><code>gap</code> (int) — отступ между ячейками в мм (по умолчанию 0)</div>
-        <div class="param"><code>padding_x</code> (int) — отступы слева/справа от границ страницы, мм (по умолчанию 0)</div>
-        <div class="param"><code>padding_y</code> (int) — отступы сверху/снизу от границ страницы, мм (по умолчанию 0)</div>
+        <details>
+            <summary>Parameters:</summary>
+            <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
+            <div class="param"><code>width</code> (int) — ширина в миллиметрах одной страницы/этикетки (обязательный)</div>
+            <div class="param"><code>height</code> (int) — высота в миллиметрах (обязательный)</div>
+            <div class="param"><code>data</code> (List[str]) — список base64-encoded SVG (обязательный)</div>
+            <div class="param"><code>grid</code> (int) — количество ячеек по горизонтали (по умолчанию 1)</div>
+            <div class="param"><code>gap</code> (int) — отступ между ячейками в мм (по умолчанию 0)</div>
+            <div class="param"><code>padding_x</code> (int) — отступы слева/справа от границ страницы, мм (по умолчанию 0)</div>
+            <div class="param"><code>padding_y</code> (int) — отступы сверху/снизу от границ страницы, мм (по умолчанию 0)</div>
+        </details>
     </div>
 </body>
 </html>
