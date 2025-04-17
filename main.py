@@ -2,8 +2,11 @@ from fastapi import FastAPI, Form
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse, Response
 from typing import List
-from api.print_datamatrix import print_svg
+from api.print_svg import print_svg
+from api.print_doc import print_doc
+from services.printer_service import get_available_printers
 import os
+import base64
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -32,6 +35,34 @@ async def handle(
         padding_y: int = Form(0),
 ):
     return print_svg(printer, width, height, data, grid, gap, padding_x, padding_y)
+
+
+@app.get("/printers")
+async def handle():
+    return {"printers": get_available_printers()}
+
+
+@app.post("/print-doc")
+async def handle(
+        printer: str = Form(...),
+        filename: str = Form(...),
+        data: str = Form(...),
+):
+    return print_doc(printer, filename, data)
+
+
+@app.get("/test")
+async def handle():
+    try:
+        file_path = os.path.join(os.getcwd(), "test.docx")
+        if not os.path.exists(file_path):
+            return {"message": "File not found"}
+        with open(file_path, "rb") as file:
+            file_data = file.read()
+        encoded_data = base64.b64encode(file_data).decode("utf-8")
+        return {"file_base64": encoded_data}
+    except Exception as e:
+        return {"message": f"Error: {str(e)}"}
 
 
 if __name__ == "__main__":

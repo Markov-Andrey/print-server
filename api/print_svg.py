@@ -5,20 +5,11 @@ from PIL import Image, ImageOps
 import base64
 from wand.color import Color
 from services.printer_service import get_available_printers, get_printer_dpi, send_png_to_printer
-from datetime import datetime
+from services.tmp_service import create_tmp_dir
 
 
 def mm_to_px(value, dpi):
     return int(value / 25.4 * dpi)
-
-
-def create_tmp_dir():
-    now = datetime.now()
-    date_dir = now.strftime("%Y-%m-%d")
-    time_dir = now.strftime("%H-%M-%S")
-    tmp_dir = os.path.join(os.getcwd(), 'tmp', date_dir, time_dir)
-    os.makedirs(tmp_dir, exist_ok=True)
-    return tmp_dir
 
 
 def print_svg(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int,

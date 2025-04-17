@@ -29,6 +29,9 @@
         .post {
             background: #00b84a;
         }
+        .get {
+            background: #0093e3;
+        }
         .endpoint {
             font-weight: bold;
             font-size: 1.3em;
@@ -62,6 +65,15 @@
 </head>
 <body>
     <h1>Print Server API</h1>
+
+    <div class="block">
+        <p>
+        <span class="method get">GET</span>
+        <span class="endpoint">/printers</span>
+            <span>Список принтеров</span>
+        </p>
+    </div>
+
     <div class="block">
         <p>
         <span class="method post">POST</span>
@@ -73,11 +85,25 @@
             <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
             <div class="param"><code>width</code> (int) — ширина в миллиметрах одной страницы/этикетки (обязательный)</div>
             <div class="param"><code>height</code> (int) — высота в миллиметрах (обязательный)</div>
-            <div class="param"><code>data</code> (List[str]) — список base64-encoded SVG (обязательный)</div>
+            <div class="param"><code>data</code> (List[str]) — список SVG в base64 (обязательный)</div>
             <div class="param"><code>grid</code> (int) — количество ячеек по горизонтали (по умолчанию 1)</div>
             <div class="param"><code>gap</code> (int) — отступ между ячейками в мм (по умолчанию 0)</div>
             <div class="param"><code>padding_x</code> (int) — отступы слева/справа от границ страницы, мм (по умолчанию 0)</div>
             <div class="param"><code>padding_y</code> (int) — отступы сверху/снизу от границ страницы, мм (по умолчанию 0)</div>
+        </details>
+    </div>
+
+    <div class="block">
+        <p>
+        <span class="method post">POST</span>
+        <span class="endpoint">/print-doc</span>
+            <span>Печать word файла (doc/docx)</span>
+        </p>
+        <details>
+            <summary>Parameters:</summary>
+            <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
+            <div class="param"><code>filename</code> (str) — имя файла (обязательный)</div>
+            <div class="param"><code>data</code> (str) — содержимое файла в base64 (обязательный)</div>
         </details>
     </div>
 </body>
