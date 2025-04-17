@@ -22,9 +22,9 @@ def get_printer_dpi(printer):
         win32print.ClosePrinter(handle)
 
 
-def send_png_to_printer(tmp_png, printer):
+def send_file_to_printer(tmp, printer):
     irfanview_path = os.path.join(os.getcwd(), "tools", "irfan_view", "i_view64.exe")
-    cmd = f'"{irfanview_path}" "{tmp_png}" /print="{printer}" /silent /one'
+    cmd = f'"{irfanview_path}" "{tmp}" /print="{printer}" /silent /one'
     result = subprocess.run(cmd, shell=True)
 
     if result.returncode != 0:

@@ -4,7 +4,7 @@ from wand.image import Image as WandImage
 from PIL import Image, ImageOps
 import base64
 from wand.color import Color
-from services.printer_service import get_available_printers, get_printer_dpi, send_png_to_printer
+from services.printer_service import get_available_printers, get_printer_dpi, send_file_to_printer
 from services.tmp_service import create_tmp_dir
 
 
@@ -54,7 +54,7 @@ def print_svg(printer: str, width: int, height: int, data: list[str], grid: int,
 
             tmp_page_path = os.path.join(tmp_dir, f'tmp_page_{img_idx}.png')
             final_img.save(tmp_page_path, dpi=(dpi, dpi))
-            send_png_to_printer(tmp_page_path, printer)
+            send_file_to_printer(tmp_page_path, printer)
 
         return {"message": f"Printed {len(data)} labels ({width}x{height}mm) to printer: {printer}"}
 

@@ -27,7 +27,7 @@ def print_doc(printer: str, filename: str, data: str):
 
         doc_to_print.PrintOut(PrintToFile=False)
 
-        return {"message": f"Doc {filename} print"}
+        return {"message": f"{filename} print"}
     except Exception as e:
         return {"message": f"Error: {str(e)}"}
 
