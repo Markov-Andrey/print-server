@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+File  : 'about.txt' - Info about IrfanView
+Author: Irfan Skiljan
+E-Mail: irfanview@gmx.net
+WWW   : http://www.irfanview.com
+-------------------------------------------------------------------------------
+
+What is IrfanView ?
+
+IrfanView is a very fast, compact and innovative FREEWARE image viewer/converter
+for Windows XP/Vista/Windows 7/8/10/11.
+
+IrfanView is fast and small, with very low system resources requirements.
+It is trying to be simple for beginners and powerful for professionals.
+
+Supported file formats:
+AIF, ANI/CUR, ASF, AU/SND, AVI, AVIF, AWD, B3D, BLP, BMP, CAD formats (DXF/DWG),
+CLP, DDS, Dicom/ACR, DJVU, DPX/CIN, ECW, EMF/WMF, EPS/PS/PDF/AI, EXR, FITS, 
+FLIF, FPX, G3, GIF, HDP/WDP, HEIC, AVIF, ICO/ICL/EXE/DLL, IFF/LBM, QOI,
+IMG (GEM), JLS, JPG2000, JPG, JPEG-XR, JPM, JXL, KDC, MED, MID/RMI, MNG/JNG,
+MP3, MPG/M2TS/MP4/MKV, MrSID, MOV, OGG, PBM/PGM/PPM, PCX/DCX, PDN, PhotoCD, PNG,
+PSD, PSP, PVR, RAS/SUN, RAW, RA, RLE, SFF, SFW, SGI/RGB, SWF/FLV, TGA, TIF, TTF,
+TXT, WAD, WAV, WBMP, WEBP, WSQ, XBM, XCF, XPM, CRW/CR2/CR3, DNG, NEF/NRW, ORF,
+RAF, MRW, DCR, PEF, SRF, EFF, RWL, MOS, ARW, RW2, SRW, DXF, DWG, HPGL, CGM,
+SVG, WBC/WBZ, GLCD, many old formats (Atari, Amiga) etc.
+ 
+Some features of IrfanView:
+32 and 64 bit versions, full Unicode support, multi language support, Thumbnails, 
+Slideshow, fast directory browsing, batch conversion/editing, multipage editing,
+Export Slideshow as video, file search, email, print, change color depth,
+scanning, Paint plugin - to paint lines, circles, arrows, straighten image etc.,
+cut/crop, support for color profiles, OCR, IPTC edit, screen capturing,
+lossless JPG operations, many effects (sharpen, blur, Adobe Photoshop filters),
+add watermark image, EXE/SCR creating, many (editable) hotkeys,
+many command line options, 60+ plugins.
+
+IrfanView was the first Windows graphic viewer (worldwide) with Animated-GIF 
+support !
+
+FREEWARE for non commercial use !
+
+Enjoy ! :-)
+
+-------------------------------------------------------------------------------
+IrfanView software is provided "as-is". 
+No warranty of any kind is expressed or implied. 
+-------------------------------------------------------------------------------

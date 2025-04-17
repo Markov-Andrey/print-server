@@ -102,7 +102,7 @@ def send_zpl_to_printer(zpl, printer):
 
 
 def send_png_to_printer(tmp_png, printer):
-    irfanview_path = r"C:\Program Files\IrfanView\i_view64.exe"
+    irfanview_path = os.path.join(os.getcwd(), "tools", "irfan_view", "i_view64.exe")
     cmd = f'"{irfanview_path}" "{tmp_png}" /print="{printer}" /silent /one'
     result = subprocess.run(cmd, shell=True)
 
