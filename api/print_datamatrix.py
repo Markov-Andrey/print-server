@@ -7,6 +7,7 @@ import base64
 import subprocess
 from wand.color import Color
 from services.printers_list import get_available_printers
+from datetime import datetime
 
 
 def mm_to_px(value, dpi):
@@ -22,6 +23,15 @@ def get_printer_dpi(printer):
         return dpi
     finally:
         win32print.ClosePrinter(handle)
+
+
+def create_tmp_dir():
+    now = datetime.now()
+    date_dir = now.strftime("%Y-%m-%d")
+    time_dir = now.strftime("%H-%M-%S")
+    tmp_dir = os.path.join(os.getcwd(), 'tmp', date_dir, time_dir)
+    os.makedirs(tmp_dir, exist_ok=True)
+    return tmp_dir
 
 
 def print_datamatrix(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int,
@@ -41,8 +51,7 @@ def print_datamatrix(printer: str, width: int, height: int, data: list[str], gri
         elem_w = (content_w - (grid - 1) * gap_px) // grid
         elem_h = content_h
 
-        tmp_dir = os.path.join(os.getcwd(), 'tmp')
-        os.makedirs(tmp_dir, exist_ok=True)
+        tmp_dir = create_tmp_dir()
 
         for img_idx in range((len(data) + grid - 1) // grid):
             final_img = Image.new("RGB", (img_w, img_h), "white")
@@ -65,9 +74,9 @@ def print_datamatrix(printer: str, width: int, height: int, data: list[str], gri
                 y = pad_y + (elem_h - pil_img.height) // 2
                 final_img.paste(pil_img, (x, y))
 
-            final_img_path = os.path.join(tmp_dir, f'tmp_final_{img_idx}.png')
-            final_img.save(final_img_path, dpi=(dpi, dpi))
-            # send_png_to_printer(final_img_path, printer)
+            tmp_page_path = os.path.join(tmp_dir, f'tmp_page_{img_idx}.png')
+            final_img.save(tmp_page_path, dpi=(dpi, dpi))
+            # send_png_to_printer(tmp_page_path, printer)
 
         return {"message": f"Printed {len(data)} labels ({width}x{height}mm) to printer: {printer}"}
 
