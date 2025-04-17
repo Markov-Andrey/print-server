@@ -4,7 +4,7 @@ from wand.image import Image as WandImage
 from PIL import Image, ImageOps
 import base64
 from wand.color import Color
-from services.printer_service import get_available_printers, get_printer_dpi, send_file_to_printer
+from services.printer_service import get_printer_dpi, send_file_to_printer
 from services.tmp_service import create_tmp_dir
 
 
@@ -14,8 +14,6 @@ def mm_to_px(value, dpi):
 
 def print_svg(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int,
               padding_y: int):
-    if printer not in get_available_printers():
-        raise HTTPException(status_code=400, detail="Error: Printer not found")
 
     try:
         dpi = get_printer_dpi(printer)

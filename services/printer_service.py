@@ -3,14 +3,6 @@ import subprocess
 import os
 
 
-def get_available_printers():
-    printers = win32print.EnumPrinters(
-        win32print.PRINTER_ENUM_LOCAL | win32print.PRINTER_ENUM_CONNECTIONS
-    )
-
-    return [printer[2] for printer in printers]
-
-
 def get_printer_dpi(printer):
     handle = win32print.OpenPrinter(printer)
     try:

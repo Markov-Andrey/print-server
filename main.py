@@ -5,7 +5,6 @@ from typing import List
 from api.print_svg import print_svg
 from api.print_doc import print_doc
 from api.print_pdf import print_pdf
-from services.printer_service import get_available_printers
 import os
 import base64
 
@@ -38,11 +37,6 @@ async def handle(
     return print_svg(printer, width, height, data, grid, gap, padding_x, padding_y)
 
 
-@app.get("/printers")
-async def handle():
-    return {"printers": get_available_printers()}
-
-
 @app.post("/print-doc")
 async def handle(
         printer: str = Form(...),
@@ -64,7 +58,7 @@ async def handle(
 @app.get("/test")
 async def handle():
     try:
-        file_path = os.path.join(os.getcwd(), "test.pdf")
+        file_path = os.path.join(os.getcwd(), "test.svg")
         if not os.path.exists(file_path):
             return {"message": "File not found"}
         with open(file_path, "rb") as file:
