@@ -54,7 +54,7 @@ def print_svg(printer: str, width: int, height: int, data: list[str], grid: int,
 
             tmp_page_path = os.path.join(tmp_dir, f'tmp_page_{img_idx}.png')
             final_img.save(tmp_page_path, dpi=(dpi, dpi))
-            # send_png_to_printer(tmp_page_path, printer)
+            send_png_to_printer(tmp_page_path, printer)
 
         return {"message": f"Printed {len(data)} labels ({width}x{height}mm) to printer: {printer}"}
 

@@ -4,6 +4,7 @@ from fastapi.responses import HTMLResponse, Response
 from typing import List
 from api.print_svg import print_svg
 from api.print_doc import print_doc
+from api.print_pdf import print_pdf
 from services.printer_service import get_available_printers
 import os
 import base64
@@ -51,10 +52,19 @@ async def handle(
     return print_doc(printer, filename, data)
 
 
+@app.post("/print-pdf")
+async def handle(
+        printer: str = Form(...),
+        filename: str = Form(...),
+        data: str = Form(...),
+):
+    return print_pdf(printer, filename, data)
+
+
 @app.get("/test")
 async def handle():
     try:
-        file_path = os.path.join(os.getcwd(), "test.docx")
+        file_path = os.path.join(os.getcwd(), "test.pdf")
         if not os.path.exists(file_path):
             return {"message": "File not found"}
         with open(file_path, "rb") as file:
