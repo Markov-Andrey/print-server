@@ -3,8 +3,8 @@ import win32print
 import base64
 import os
 import win32com.client
-from typing import List
 
+from typing import List
 from api.printer import get_printer_capabilities
 from api.print_datamatrix import print_datamatrix
 

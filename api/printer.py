@@ -1,5 +1,3 @@
-# api/printer.py
-
 import win32print
 from fastapi import HTTPException
 
