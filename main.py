@@ -6,7 +6,6 @@ import win32com.client
 from typing import List
 
 from api.printer import get_printer_capabilities
-from api.pillow import generate_collage
 from api.print_datamatrix import print_datamatrix
 
 app = FastAPI()
@@ -35,16 +34,6 @@ async def handle(
         padding_y: int = Form(0),  # top/bottom
 ):
     return print_datamatrix(printer, width, height, data, grid, gap, padding_x, padding_y)
-
-
-@app.post("/pillow")
-async def handle(
-        grid: int = Form(1),
-        gap: int = Form(0),
-        padding_x: int = Form(0),  # left/right
-        padding_y: int = Form(0),  # top/bottom
-):
-    return generate_collage(grid, gap, padding_x, padding_y)
 
 
 @app.get("/test_print_docx")
