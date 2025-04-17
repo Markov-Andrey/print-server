@@ -67,7 +67,7 @@ def print_datamatrix(printer: str, width: int, height: int, data: list[str], gri
 
             final_img_path = os.path.join(tmp_dir, f'tmp_final_{img_idx}.png')
             final_img.save(final_img_path, dpi=(dpi, dpi))
-            send_png_to_printer(final_img_path, printer)
+            # send_png_to_printer(final_img_path, printer)
 
         return {"message": f"Printed {len(data)} labels ({width}x{height}mm) to printer: {printer}"}
 
