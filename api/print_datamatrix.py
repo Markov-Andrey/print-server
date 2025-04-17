@@ -5,9 +5,7 @@ from PIL import Image, ImageOps
 import win32print
 import base64
 import subprocess
-import time
 from wand.color import Color
-from services.zpl_converter import convert_png_to_zpl
 from services.printers_list import get_available_printers
 
 
@@ -87,18 +85,6 @@ def get_printer_dpi(printer):
         return dpi
     finally:
         win32print.ClosePrinter(handle)
-
-
-def send_zpl_to_printer(zpl, printer):
-    hprinter = win32print.OpenPrinter(printer)
-    try:
-        win32print.StartDocPrinter(hprinter, 1, ("ZPL Label", None, "RAW"))
-        win32print.StartPagePrinter(hprinter)
-        win32print.WritePrinter(hprinter, zpl.encode('utf-8'))
-        win32print.EndPagePrinter(hprinter)
-        win32print.EndDocPrinter(hprinter)
-    finally:
-        win32print.ClosePrinter(hprinter)
 
 
 def send_png_to_printer(tmp_png, printer):
