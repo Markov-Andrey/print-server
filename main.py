@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Form
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, Response
 from typing import List
 from api.print_datamatrix import print_svg
 import os
@@ -13,6 +13,11 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 async def serve_documentation():
     with open(os.path.join("static", "docs.html"), encoding="utf-8") as f:
         return f.read()
+
+
+@app.get("/favicon.ico", response_class=Response)
+async def favicon():
+    return Response(status_code=204)
 
 
 @app.post("/print-svg")
