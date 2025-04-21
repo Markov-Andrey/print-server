@@ -4,7 +4,7 @@ from services.tmp_service import create_tmp_dir
 from services.printer_service import send_file_to_printer
 
 
-def print_file(format: str, printer: str, filename: str, data: str):
+def print_file(printer: str, format: str, filename: str, data: str):
     PRINTABLE_FORMATS = [
         "JPG", "JPEG", "PNG", "BMP", "GIF", "TIF", "TIFF", "WEBP", "HEIC", "AVIF",
         "PDF", "SVG", "ICO", "PSD", "DJVU", "TXT", "EPS", "PS", "AI"

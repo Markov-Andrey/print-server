@@ -55,10 +55,11 @@ async def handle(
 ):
     return print_file(printer, format, filename, data)
 
+
 @app.get("/test")
 async def handle():
     try:
-        file_path = os.path.join(os.getcwd(), "test.svg")
+        file_path = os.path.join(os.getcwd(), "test.avif")
         if not os.path.exists(file_path):
             return {"message": "File not found"}
         with open(file_path, "rb") as file:
