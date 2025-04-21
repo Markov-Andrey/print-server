@@ -5,6 +5,7 @@ from typing import List
 from api.print_svg import print_svg
 from api.print_doc import print_doc
 from api.print_pdf import print_pdf
+from api.print_file import print_file
 import os
 import base64
 
@@ -46,14 +47,14 @@ async def handle(
     return print_doc(printer, filename, data)
 
 
-@app.post("/print-pdf")
+@app.post("/print-file")
 async def handle(
+        format: str = Form(...),
         printer: str = Form(...),
         filename: str = Form(...),
         data: str = Form(...),
 ):
-    return print_pdf(printer, filename, data)
-
+    return print_file(printer, format, filename, data)
 
 @app.get("/test")
 async def handle():
