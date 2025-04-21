@@ -10,24 +10,26 @@ def print_file(format: str, printer: str, filename: str, data: str):
         "PDF", "SVG", "ICO", "PSD", "DJVU", "TXT", "EPS", "PS", "AI"
     ]
 
+    format = format.upper()
+    if format not in PRINTABLE_FORMATS:
+        return {"message": f"Format {format} not supported!"}
+
     try:
         file_data = base64.b64decode(data)
     except Exception as e:
         return {"message": f"Error decoding base64 data: {str(e)}"}
 
-    if format.upper() not in PRINTABLE_FORMATS:
-        return {"message": f"Format {format} not supported!"}
-
     try:
         tmp_dir = create_tmp_dir()
-        temp_filename = os.path.join(tmp_dir, f"{filename}.pdf")
+        safe_filename = os.path.basename(filename)
+        temp_filename = os.path.join(tmp_dir, f"{safe_filename}.{format.lower()}")
 
         with open(temp_filename, "wb") as temp_file:
             temp_file.write(file_data)
 
         send_file_to_printer(temp_filename, printer)
 
-        return {"message": f"{filename} отправлен на печать"}
+        return {"message": f"{safe_filename} отправлен на печать"}
 
     except Exception as e:
         return {"message": f"Ошибка: {str(e)}"}
