@@ -4,7 +4,6 @@ from fastapi.responses import HTMLResponse, Response
 from typing import List
 from api.print_svg import print_svg
 from api.print_doc import print_doc
-from api.print_pdf import print_pdf
 from api.print_file import print_file
 import os
 import base64
