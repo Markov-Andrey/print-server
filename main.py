@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 app = FastAPI()
 load_dotenv()
-EXPECTED_TOKEN = os.getenv("AUTH_TOKEN")
+APP_KEY = os.getenv("APP_KEY")
 
 static_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
 app.mount("/static", StaticFiles(directory=static_dir), name="static")
@@ -21,7 +21,7 @@ app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
 def token_validation(request: Request):
     token = request.headers.get("X-Token")
-    if token != EXPECTED_TOKEN:
+    if token != APP_KEY:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Token does not match or is missing.",
