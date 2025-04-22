@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Form
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse, Response
+from fastapi import Request, HTTPException, status, Depends
 from typing import List
 from starlette.responses import FileResponse
 from api.print_svg import print_svg
@@ -8,11 +9,24 @@ from api.print_doc import print_doc
 from api.print_file import print_file
 import os
 import base64
+from dotenv import load_dotenv
 
 app = FastAPI()
+load_dotenv()
+EXPECTED_TOKEN = os.getenv("AUTH_TOKEN")
 
 static_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
 app.mount("/static", StaticFiles(directory=static_dir), name="static")
+
+
+def token_validation(request: Request):
+    token = request.headers.get("X-Token")
+    if token != EXPECTED_TOKEN:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Token does not match or is missing.",
+        )
+    return token
 
 
 @app.get("/", response_class=FileResponse)
@@ -27,6 +41,7 @@ async def favicon():
 
 @app.post("/print-svg")
 async def handle(
+        token: str = Depends(token_validation),
         printer: str = Form(...),
         width: int = Form(...),
         height: int = Form(...),
@@ -41,6 +56,7 @@ async def handle(
 
 @app.post("/print-doc")
 async def handle(
+        token: str = Depends(token_validation),
         printer: str = Form(...),
         filename: str = Form(...),
         data: str = Form(...),
@@ -50,6 +66,7 @@ async def handle(
 
 @app.post("/print-file")
 async def handle(
+        token: str = Depends(token_validation),
         format: str = Form(...),
         printer: str = Form(...),
         filename: str = Form(...),

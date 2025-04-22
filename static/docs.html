@@ -42,21 +42,21 @@
 
         details {
             background-color: #f8fdff;
-            padding: 10px;
-            margin-top: 10px;
+            padding: 3px;
             border-radius: 6px;
         }
 
         summary {
             font-weight: bold;
             cursor: pointer;
-            padding: 10px;
+            padding: 4px;
             background-color: #ddd;
             border-radius: 6px;
         }
 
         .param {
-            margin-left: 20px;
+            padding: 2px 15px 2px 15px;
+            margin: 0;
         }
     </style>
 </head>
@@ -69,6 +69,10 @@
         <span class="endpoint">/print-svg</span>
             <span>Печать набора svg по заданным параметрам</span>
         </p>
+        <details>
+            <summary>Header:</summary>
+            <div class="param"><code>X-Token</code> (str) — токен авторизации. Значение токена должно быть передано в заголовке запроса. Пример: <code>X-Token: abc</code></div>
+        </details>
         <details>
             <summary>Parameters:</summary>
             <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
@@ -89,6 +93,10 @@
             <span>Печать word файла (doc/docx)</span>
         </p>
         <details>
+            <summary>Header:</summary>
+            <div class="param"><code>X-Token</code> (str) — токен авторизации. Значение токена должно быть передано в заголовке запроса. Пример: <code>X-Token: abc</code></div>
+        </details>
+        <details>
             <summary>Parameters:</summary>
             <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
             <div class="param"><code>filename</code> (str) — имя файла (обязательный)</div>
@@ -102,6 +110,10 @@
         <span class="endpoint">/print-file</span>
             <span>Печать файла</span>
         </p>
+        <details>
+            <summary>Header:</summary>
+            <div class="param"><code>X-Token</code> (str) — токен авторизации. Значение токена должно быть передано в заголовке запроса. Пример: <code>X-Token: abc</code></div>
+        </details>
         <details>
             <summary>Parameters:</summary>
             <div class="param"><code>format</code> (str) — расширение файла (обязательный), допустимые: JPG, JPEG, PNG, BMP, GIF, TIF, TIFF, WEBP, HEIC, AVIF,

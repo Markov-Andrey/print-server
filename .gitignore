@@ -1,5 +1,4 @@
 venv/
-.env/
 .venv/
 .idea
 
@@ -9,3 +8,4 @@ __pycache__/
 /dist/
 /build/
 /tmp/*
+/.env
