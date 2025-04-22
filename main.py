@@ -2,6 +2,7 @@ from fastapi import FastAPI, Form
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse, Response
 from typing import List
+from starlette.responses import FileResponse
 from api.print_svg import print_svg
 from api.print_doc import print_doc
 from api.print_file import print_file
@@ -9,13 +10,14 @@ import os
 import base64
 
 app = FastAPI()
-app.mount("/static", StaticFiles(directory="static"), name="static")
+
+static_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
+app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
 
-@app.get("/", response_class=HTMLResponse)
+@app.get("/", response_class=FileResponse)
 async def serve_documentation():
-    with open(os.path.join("static", "docs.html"), encoding="utf-8") as f:
-        return f.read()
+    return FileResponse(path=os.path.join(static_dir, "docs.html"), media_type='text/html')
 
 
 @app.get("/favicon.ico", response_class=Response)
@@ -73,4 +75,4 @@ async def handle():
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="127.0.0.1", port=8000)

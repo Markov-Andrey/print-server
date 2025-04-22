@@ -2,8 +2,10 @@ venv/
 .env/
 .venv/
 .idea
-.tmp/*
 
 __pycache__/
 *.py[cod]
 *.log
+/dist/
+/build/
+/tmp/*
