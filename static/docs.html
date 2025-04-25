@@ -63,16 +63,17 @@
 <body>
     <h1>Print Server API</h1>
 
+    <details>
+        <summary>Header:</summary>
+        <div class="param"><code>X-Token</code> (str) — токен авторизации в заголовке запросов (обязательный). Пример: <code>X-Token: SKYv8dG34g=</code></div>
+    </details>
+
     <div class="block">
         <p>
         <span class="method post">POST</span>
         <span class="endpoint">/print-svg</span>
             <span>Печать набора svg по заданным параметрам</span>
         </p>
-        <details>
-            <summary>Header:</summary>
-            <div class="param"><code>X-Token</code> (str) — токен авторизации. Значение токена должно быть передано в заголовке запроса. Пример: <code>X-Token: abc</code></div>
-        </details>
         <details>
             <summary>Parameters:</summary>
             <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
@@ -93,10 +94,6 @@
             <span>Печать word файла (doc/docx)</span>
         </p>
         <details>
-            <summary>Header:</summary>
-            <div class="param"><code>X-Token</code> (str) — токен авторизации. Значение токена должно быть передано в заголовке запроса. Пример: <code>X-Token: abc</code></div>
-        </details>
-        <details>
             <summary>Parameters:</summary>
             <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
             <div class="param"><code>filename</code> (str) — имя файла (обязательный)</div>
@@ -110,10 +107,6 @@
         <span class="endpoint">/print-file</span>
             <span>Печать файла</span>
         </p>
-        <details>
-            <summary>Header:</summary>
-            <div class="param"><code>X-Token</code> (str) — токен авторизации. Значение токена должно быть передано в заголовке запроса. Пример: <code>X-Token: abc</code></div>
-        </details>
         <details>
             <summary>Parameters:</summary>
             <div class="param"><code>format</code> (str) — расширение файла (обязательный), допустимые: JPG, JPEG, PNG, BMP, GIF, TIF, TIFF, WEBP, HEIC, AVIF,
