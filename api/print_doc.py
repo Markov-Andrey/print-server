@@ -2,6 +2,7 @@ import os
 import base64
 from win32com import client
 from services.tmp_service import create_tmp_dir
+from services.printer_service import get_default_printer
 
 
 def print_doc(printer: str, filename: str, data: str):
@@ -22,6 +23,8 @@ def print_doc(printer: str, filename: str, data: str):
 
         word = client.Dispatch("Word.Application")
         word.Visible = False
+        if not printer:
+            printer = get_default_printer()
         word.ActivePrinter = printer
         doc_to_print = word.Documents.Open(os.path.abspath(temp_filename))
 

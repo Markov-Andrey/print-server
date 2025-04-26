@@ -1,11 +1,31 @@
 import os
-from fastapi import HTTPException
+from fastapi import FastAPI, HTTPException, Form
+from typing import List
+from services.printer_service import get_printer_dpi, send_file_to_printer, get_default_printer
+from services.tmp_service import create_tmp_dir
+import base64
 from wand.image import Image as WandImage
 from PIL import Image, ImageOps
-import base64
 from wand.color import Color
-from services.printer_service import get_printer_dpi, send_file_to_printer
-from services.tmp_service import create_tmp_dir
+
+app = FastAPI()
+
+
+@app.post("/print-svg")
+async def handle(
+        printer: str = Form(None),
+        width: int = Form(...),
+        height: int = Form(...),
+        data: List[str] = Form(...),
+        grid: int = Form(1),
+        gap: int = Form(0),
+        padding_x: int = Form(0),
+        padding_y: int = Form(0),
+):
+    if not printer:
+        printer = get_default_printer()
+
+    return print_svg(printer, width, height, data, grid, gap, padding_x, padding_y)
 
 
 def mm_to_px(value, dpi):
@@ -14,6 +34,8 @@ def mm_to_px(value, dpi):
 
 def print_svg(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int,
               padding_y: int):
+    if not printer:
+        printer = get_default_printer()
 
     try:
         dpi = get_printer_dpi(printer)

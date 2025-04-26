@@ -42,7 +42,7 @@ async def favicon():
 @app.post("/print-svg")
 async def handle(
         token: str = Depends(token_validation),
-        printer: str = Form(...),
+        printer: str = Form(None),
         width: int = Form(...),
         height: int = Form(...),
         data: List[str] = Form(...),
@@ -57,7 +57,7 @@ async def handle(
 @app.post("/print-doc")
 async def handle(
         token: str = Depends(token_validation),
-        printer: str = Form(...),
+        printer: str = Form(None),
         filename: str = Form(...),
         data: str = Form(...),
 ):
@@ -68,7 +68,7 @@ async def handle(
 async def handle(
         token: str = Depends(token_validation),
         format: str = Form(...),
-        printer: str = Form(...),
+        printer: str = Form(None),
         filename: str = Form(...),
         data: str = Form(...),
 ):

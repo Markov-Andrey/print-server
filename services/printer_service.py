@@ -21,3 +21,10 @@ def send_file_to_printer(tmp, printer):
 
     if result.returncode != 0:
         raise RuntimeError(f"IrfanView error: {result.returncode}")
+
+
+def get_default_printer():
+    try:
+        return win32print.GetDefaultPrinter()
+    except Exception as e:
+        return str(e)

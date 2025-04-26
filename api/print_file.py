@@ -1,7 +1,7 @@
 import os
 import base64
 from services.tmp_service import create_tmp_dir
-from services.printer_service import send_file_to_printer
+from services.printer_service import send_file_to_printer, get_default_printer
 
 
 def print_file(printer: str, format: str, filename: str, data: str):
@@ -26,6 +26,9 @@ def print_file(printer: str, format: str, filename: str, data: str):
 
         with open(temp_filename, "wb") as temp_file:
             temp_file.write(file_data)
+
+        if not printer:
+            printer = get_default_printer()
 
         send_file_to_printer(temp_filename, printer)
 
