@@ -1,0 +1,4715 @@
+('C:\\Program Files\\OSPanel\\domains\\print-server\\build\\main\\PYZ-00.pyz',
+ [('PIL',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageMath',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageMath.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_sitebuiltins.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('annotated_types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\annotated_types\\__init__.py',
+   'PYMODULE'),
+  ('anyio',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\__init__.py',
+   'PYMODULE'),
+  ('anyio._backends',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('anyio._backends._asyncio',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_backends\\_asyncio.py',
+   'PYMODULE'),
+  ('anyio._backends._trio',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_backends\\_trio.py',
+   'PYMODULE'),
+  ('anyio._core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\__init__.py',
+   'PYMODULE'),
+  ('anyio._core._asyncio_selector_thread',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_asyncio_selector_thread.py',
+   'PYMODULE'),
+  ('anyio._core._eventloop',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_eventloop.py',
+   'PYMODULE'),
+  ('anyio._core._exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('anyio._core._fileio',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_fileio.py',
+   'PYMODULE'),
+  ('anyio._core._resources',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_resources.py',
+   'PYMODULE'),
+  ('anyio._core._signals',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_signals.py',
+   'PYMODULE'),
+  ('anyio._core._sockets',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_sockets.py',
+   'PYMODULE'),
+  ('anyio._core._streams',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_streams.py',
+   'PYMODULE'),
+  ('anyio._core._subprocesses',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_subprocesses.py',
+   'PYMODULE'),
+  ('anyio._core._synchronization',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_synchronization.py',
+   'PYMODULE'),
+  ('anyio._core._tasks',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_tasks.py',
+   'PYMODULE'),
+  ('anyio._core._tempfile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_tempfile.py',
+   'PYMODULE'),
+  ('anyio._core._testing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_testing.py',
+   'PYMODULE'),
+  ('anyio._core._typedattr',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\_core\\_typedattr.py',
+   'PYMODULE'),
+  ('anyio.abc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\abc\\__init__.py',
+   'PYMODULE'),
+  ('anyio.abc._eventloop',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\abc\\_eventloop.py',
+   'PYMODULE'),
+  ('anyio.abc._resources',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\abc\\_resources.py',
+   'PYMODULE'),
+  ('anyio.abc._sockets',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\abc\\_sockets.py',
+   'PYMODULE'),
+  ('anyio.abc._streams',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\abc\\_streams.py',
+   'PYMODULE'),
+  ('anyio.abc._subprocesses',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\abc\\_subprocesses.py',
+   'PYMODULE'),
+  ('anyio.abc._tasks',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\abc\\_tasks.py',
+   'PYMODULE'),
+  ('anyio.abc._testing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\abc\\_testing.py',
+   'PYMODULE'),
+  ('anyio.from_thread',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\from_thread.py',
+   'PYMODULE'),
+  ('anyio.lowlevel',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\lowlevel.py',
+   'PYMODULE'),
+  ('anyio.streams',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\streams\\__init__.py',
+   'PYMODULE'),
+  ('anyio.streams.memory',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\streams\\memory.py',
+   'PYMODULE'),
+  ('anyio.streams.stapled',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\streams\\stapled.py',
+   'PYMODULE'),
+  ('anyio.streams.tls',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\streams\\tls.py',
+   'PYMODULE'),
+  ('anyio.to_thread',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\anyio\\to_thread.py',
+   'PYMODULE'),
+  ('api', '-', 'PYMODULE'),
+  ('api.print_doc',
+   'C:\\Program Files\\OSPanel\\domains\\print-server\\api\\print_doc.py',
+   'PYMODULE'),
+  ('api.print_file',
+   'C:\\Program Files\\OSPanel\\domains\\print-server\\api\\print_file.py',
+   'PYMODULE'),
+  ('api.print_svg',
+   'C:\\Program Files\\OSPanel\\domains\\print-server\\api\\print_svg.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('attr',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\__init__.py',
+   'PYMODULE'),
+  ('attr._cmp',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\_cmp.py',
+   'PYMODULE'),
+  ('attr._compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\_compat.py',
+   'PYMODULE'),
+  ('attr._config',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\_config.py',
+   'PYMODULE'),
+  ('attr._funcs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\_funcs.py',
+   'PYMODULE'),
+  ('attr._make',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\_make.py',
+   'PYMODULE'),
+  ('attr._next_gen',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\_next_gen.py',
+   'PYMODULE'),
+  ('attr._version_info',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\_version_info.py',
+   'PYMODULE'),
+  ('attr.converters',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\converters.py',
+   'PYMODULE'),
+  ('attr.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\exceptions.py',
+   'PYMODULE'),
+  ('attr.filters',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\filters.py',
+   'PYMODULE'),
+  ('attr.setters',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\setters.py',
+   'PYMODULE'),
+  ('attr.validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attr\\validators.py',
+   'PYMODULE'),
+  ('attrs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attrs\\__init__.py',
+   'PYMODULE'),
+  ('attrs.converters',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attrs\\converters.py',
+   'PYMODULE'),
+  ('attrs.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attrs\\exceptions.py',
+   'PYMODULE'),
+  ('attrs.filters',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attrs\\filters.py',
+   'PYMODULE'),
+  ('attrs.setters',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attrs\\setters.py',
+   'PYMODULE'),
+  ('attrs.validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\attrs\\validators.py',
+   'PYMODULE'),
+  ('backports',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bdb.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('cffi',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\__init__.py',
+   'PYMODULE'),
+  ('cffi._imp_emulation',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\_imp_emulation.py',
+   'PYMODULE'),
+  ('cffi._shimmed_dist_utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\_shimmed_dist_utils.py',
+   'PYMODULE'),
+  ('cffi.api',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\api.py',
+   'PYMODULE'),
+  ('cffi.cffi_opcode',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\cffi_opcode.py',
+   'PYMODULE'),
+  ('cffi.commontypes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\commontypes.py',
+   'PYMODULE'),
+  ('cffi.cparser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\cparser.py',
+   'PYMODULE'),
+  ('cffi.error',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\error.py',
+   'PYMODULE'),
+  ('cffi.ffiplatform',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\ffiplatform.py',
+   'PYMODULE'),
+  ('cffi.lock',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\lock.py',
+   'PYMODULE'),
+  ('cffi.model',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\model.py',
+   'PYMODULE'),
+  ('cffi.pkgconfig',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\pkgconfig.py',
+   'PYMODULE'),
+  ('cffi.recompiler',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\recompiler.py',
+   'PYMODULE'),
+  ('cffi.vengine_cpy',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\vengine_cpy.py',
+   'PYMODULE'),
+  ('cffi.vengine_gen',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\vengine_gen.py',
+   'PYMODULE'),
+  ('cffi.verifier',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\cffi\\verifier.py',
+   'PYMODULE'),
+  ('click',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('click._compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click.globals',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.parser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.termui',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click.types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('click.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\cmd.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('colorama',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('commctrl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('defusedxml',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\__init__.py',
+   'PYMODULE'),
+  ('defusedxml.ElementTree',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\ElementTree.py',
+   'PYMODULE'),
+  ('defusedxml.cElementTree',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\cElementTree.py',
+   'PYMODULE'),
+  ('defusedxml.common',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\common.py',
+   'PYMODULE'),
+  ('defusedxml.expatbuilder',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\expatbuilder.py',
+   'PYMODULE'),
+  ('defusedxml.expatreader',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\expatreader.py',
+   'PYMODULE'),
+  ('defusedxml.minidom',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\minidom.py',
+   'PYMODULE'),
+  ('defusedxml.pulldom',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\pulldom.py',
+   'PYMODULE'),
+  ('defusedxml.sax',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\sax.py',
+   'PYMODULE'),
+  ('defusedxml.xmlrpc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\defusedxml\\xmlrpc.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dis.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\doctest.py',
+   'PYMODULE'),
+  ('dotenv',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\dotenv\\__init__.py',
+   'PYMODULE'),
+  ('dotenv.ipython',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\dotenv\\ipython.py',
+   'PYMODULE'),
+  ('dotenv.main',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\dotenv\\main.py',
+   'PYMODULE'),
+  ('dotenv.parser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\dotenv\\parser.py',
+   'PYMODULE'),
+  ('dotenv.variables',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\dotenv\\variables.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('fastapi',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\__init__.py',
+   'PYMODULE'),
+  ('fastapi._compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\_compat.py',
+   'PYMODULE'),
+  ('fastapi.applications',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\applications.py',
+   'PYMODULE'),
+  ('fastapi.background',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\background.py',
+   'PYMODULE'),
+  ('fastapi.concurrency',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\concurrency.py',
+   'PYMODULE'),
+  ('fastapi.datastructures',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\datastructures.py',
+   'PYMODULE'),
+  ('fastapi.dependencies',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\dependencies\\__init__.py',
+   'PYMODULE'),
+  ('fastapi.dependencies.models',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\dependencies\\models.py',
+   'PYMODULE'),
+  ('fastapi.dependencies.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\dependencies\\utils.py',
+   'PYMODULE'),
+  ('fastapi.encoders',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\encoders.py',
+   'PYMODULE'),
+  ('fastapi.exception_handlers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\exception_handlers.py',
+   'PYMODULE'),
+  ('fastapi.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\exceptions.py',
+   'PYMODULE'),
+  ('fastapi.logger',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\logger.py',
+   'PYMODULE'),
+  ('fastapi.openapi',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\openapi\\__init__.py',
+   'PYMODULE'),
+  ('fastapi.openapi.constants',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\openapi\\constants.py',
+   'PYMODULE'),
+  ('fastapi.openapi.docs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\openapi\\docs.py',
+   'PYMODULE'),
+  ('fastapi.openapi.models',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\openapi\\models.py',
+   'PYMODULE'),
+  ('fastapi.openapi.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\openapi\\utils.py',
+   'PYMODULE'),
+  ('fastapi.param_functions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\param_functions.py',
+   'PYMODULE'),
+  ('fastapi.params',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\params.py',
+   'PYMODULE'),
+  ('fastapi.requests',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\requests.py',
+   'PYMODULE'),
+  ('fastapi.responses',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\responses.py',
+   'PYMODULE'),
+  ('fastapi.routing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\routing.py',
+   'PYMODULE'),
+  ('fastapi.security',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\security\\__init__.py',
+   'PYMODULE'),
+  ('fastapi.security.api_key',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\security\\api_key.py',
+   'PYMODULE'),
+  ('fastapi.security.base',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\security\\base.py',
+   'PYMODULE'),
+  ('fastapi.security.http',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\security\\http.py',
+   'PYMODULE'),
+  ('fastapi.security.oauth2',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\security\\oauth2.py',
+   'PYMODULE'),
+  ('fastapi.security.open_id_connect_url',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\security\\open_id_connect_url.py',
+   'PYMODULE'),
+  ('fastapi.security.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\security\\utils.py',
+   'PYMODULE'),
+  ('fastapi.staticfiles',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\staticfiles.py',
+   'PYMODULE'),
+  ('fastapi.types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\types.py',
+   'PYMODULE'),
+  ('fastapi.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\utils.py',
+   'PYMODULE'),
+  ('fastapi.websockets',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\fastapi\\websockets.py',
+   'PYMODULE'),
+  ('fileinput',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fileinput.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('h11',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\__init__.py',
+   'PYMODULE'),
+  ('h11._abnf',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_abnf.py',
+   'PYMODULE'),
+  ('h11._connection',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_connection.py',
+   'PYMODULE'),
+  ('h11._events',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_events.py',
+   'PYMODULE'),
+  ('h11._headers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_headers.py',
+   'PYMODULE'),
+  ('h11._readers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_readers.py',
+   'PYMODULE'),
+  ('h11._receivebuffer',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_receivebuffer.py',
+   'PYMODULE'),
+  ('h11._state',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_state.py',
+   'PYMODULE'),
+  ('h11._util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_util.py',
+   'PYMODULE'),
+  ('h11._version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_version.py',
+   'PYMODULE'),
+  ('h11._writers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\h11\\_writers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('jaraco', '-', 'PYMODULE'),
+  ('json',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('logging.config',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\config.py',
+   'PYMODULE'),
+  ('logging.handlers',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\handlers.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('multipart',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\multipart\\__init__.py',
+   'PYMODULE'),
+  ('multipart.multipart',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\multipart\\multipart.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('numpy',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._array_api_info',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_array_api_info.py',
+   'PYMODULE'),
+  ('numpy._core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\__init__.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs_scalars',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy._core._asarray',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy._core._dtype',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy._core._dtype_ctypes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._core._exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy._core._internal',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_internal.py',
+   'PYMODULE'),
+  ('numpy._core._machar',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_machar.py',
+   'PYMODULE'),
+  ('numpy._core._methods',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_methods.py',
+   'PYMODULE'),
+  ('numpy._core._string_helpers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy._core._type_aliases',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy._core._ufunc_config',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy._core.arrayprint',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy._core.defchararray',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._core.einsumfunc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy._core.fromnumeric',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy._core.function_base',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\function_base.py',
+   'PYMODULE'),
+  ('numpy._core.getlimits',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy._core.memmap',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\memmap.py',
+   'PYMODULE'),
+  ('numpy._core.multiarray',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy._core.numeric',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\numeric.py',
+   'PYMODULE'),
+  ('numpy._core.numerictypes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy._core.overrides',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\overrides.py',
+   'PYMODULE'),
+  ('numpy._core.printoptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\printoptions.py',
+   'PYMODULE'),
+  ('numpy._core.records',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\records.py',
+   'PYMODULE'),
+  ('numpy._core.shape_base',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy._core.strings',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\strings.py',
+   'PYMODULE'),
+  ('numpy._core.tests', '-', 'PYMODULE'),
+  ('numpy._core.tests._natype',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\tests\\_natype.py',
+   'PYMODULE'),
+  ('numpy._core.umath',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_core\\umath.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy._expired_attrs_2_0',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_expired_attrs_2_0.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit_base',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._typing._ufunc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
+   'PYMODULE'),
+  ('numpy._utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
+   'PYMODULE'),
+  ('numpy._utils._convertions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_utils\\_convertions.py',
+   'PYMODULE'),
+  ('numpy._utils._inspect',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.char',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\char\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\core\\_utils.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.dtypes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\dtypes.py',
+   'PYMODULE'),
+  ('numpy.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\exceptions.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._backend',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._distutils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._meson',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
+   'PYMODULE'),
+  ('numpy.f2py._isocbind',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\_isocbind.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.symbolic',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\symbolic.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft._helper',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\fft\\_helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._array_utils_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_array_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraypad_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_arraypad_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraysetops_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arrayterator_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib._function_base_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._histograms_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_histograms_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._index_tricks_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_index_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._nanfunctions_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._npyio_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._polynomial_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._scimath_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._shape_base_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._stride_tricks_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_stride_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._twodim_base_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_twodim_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._type_check_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._ufunclike_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._utils_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.array_utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\array_utils.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.introspect',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\introspect.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.lib.recfunctions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg._linalg',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\linalg\\_linalg.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.matlib',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\matlib.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.rec',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\rec\\__init__.py',
+   'PYMODULE'),
+  ('numpy.strings',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\strings\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.testing.overrides',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\testing\\overrides.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('outcome',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\outcome\\__init__.py',
+   'PYMODULE'),
+  ('outcome._impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\outcome\\_impl.py',
+   'PYMODULE'),
+  ('outcome._util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\outcome\\_util.py',
+   'PYMODULE'),
+  ('outcome._version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\outcome\\_version.py',
+   'PYMODULE'),
+  ('packaging',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\licenses\\__init__.py',
+   'PYMODULE'),
+  ('packaging.licenses._spdx',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\licenses\\_spdx.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging.metadata',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pathlib.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pdb.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\plistlib.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('pycparser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.ast_transforms',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\ast_transforms.py',
+   'PYMODULE'),
+  ('pycparser.c_ast',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\c_ast.py',
+   'PYMODULE'),
+  ('pycparser.c_lexer',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\c_lexer.py',
+   'PYMODULE'),
+  ('pycparser.c_parser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\c_parser.py',
+   'PYMODULE'),
+  ('pycparser.lextab',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\lextab.py',
+   'PYMODULE'),
+  ('pycparser.ply',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\ply\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.ply.lex',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\ply\\lex.py',
+   'PYMODULE'),
+  ('pycparser.ply.yacc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\ply\\yacc.py',
+   'PYMODULE'),
+  ('pycparser.plyparser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\plyparser.py',
+   'PYMODULE'),
+  ('pycparser.yacctab',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pycparser\\yacctab.py',
+   'PYMODULE'),
+  ('pydantic',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\__init__.py',
+   'PYMODULE'),
+  ('pydantic._internal',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\__init__.py',
+   'PYMODULE'),
+  ('pydantic._internal._config',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_config.py',
+   'PYMODULE'),
+  ('pydantic._internal._core_metadata',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_core_metadata.py',
+   'PYMODULE'),
+  ('pydantic._internal._core_utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_core_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._dataclasses',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_dataclasses.py',
+   'PYMODULE'),
+  ('pydantic._internal._decorators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_decorators.py',
+   'PYMODULE'),
+  ('pydantic._internal._decorators_v1',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_decorators_v1.py',
+   'PYMODULE'),
+  ('pydantic._internal._discriminated_union',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_discriminated_union.py',
+   'PYMODULE'),
+  ('pydantic._internal._docs_extraction',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_docs_extraction.py',
+   'PYMODULE'),
+  ('pydantic._internal._fields',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_fields.py',
+   'PYMODULE'),
+  ('pydantic._internal._forward_ref',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_forward_ref.py',
+   'PYMODULE'),
+  ('pydantic._internal._generate_schema',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py',
+   'PYMODULE'),
+  ('pydantic._internal._generics',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_generics.py',
+   'PYMODULE'),
+  ('pydantic._internal._git',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_git.py',
+   'PYMODULE'),
+  ('pydantic._internal._import_utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_import_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._internal_dataclass',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_internal_dataclass.py',
+   'PYMODULE'),
+  ('pydantic._internal._known_annotated_metadata',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_known_annotated_metadata.py',
+   'PYMODULE'),
+  ('pydantic._internal._mock_val_ser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_mock_val_ser.py',
+   'PYMODULE'),
+  ('pydantic._internal._model_construction',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_model_construction.py',
+   'PYMODULE'),
+  ('pydantic._internal._namespace_utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_namespace_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._repr',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_repr.py',
+   'PYMODULE'),
+  ('pydantic._internal._schema_gather',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_schema_gather.py',
+   'PYMODULE'),
+  ('pydantic._internal._schema_generation_shared',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_schema_generation_shared.py',
+   'PYMODULE'),
+  ('pydantic._internal._serializers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_serializers.py',
+   'PYMODULE'),
+  ('pydantic._internal._signature',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_signature.py',
+   'PYMODULE'),
+  ('pydantic._internal._typing_extra',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_typing_extra.py',
+   'PYMODULE'),
+  ('pydantic._internal._utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._validate_call',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py',
+   'PYMODULE'),
+  ('pydantic._internal._validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_internal\\_validators.py',
+   'PYMODULE'),
+  ('pydantic._migration',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\_migration.py',
+   'PYMODULE'),
+  ('pydantic.alias_generators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\alias_generators.py',
+   'PYMODULE'),
+  ('pydantic.aliases',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\aliases.py',
+   'PYMODULE'),
+  ('pydantic.annotated_handlers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\annotated_handlers.py',
+   'PYMODULE'),
+  ('pydantic.class_validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\class_validators.py',
+   'PYMODULE'),
+  ('pydantic.color',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\color.py',
+   'PYMODULE'),
+  ('pydantic.config',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\config.py',
+   'PYMODULE'),
+  ('pydantic.dataclasses',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\dataclasses.py',
+   'PYMODULE'),
+  ('pydantic.datetime_parse',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\datetime_parse.py',
+   'PYMODULE'),
+  ('pydantic.decorator',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\decorator.py',
+   'PYMODULE'),
+  ('pydantic.deprecated',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\deprecated\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.class_validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\deprecated\\class_validators.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.config',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\deprecated\\config.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.copy_internals',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\deprecated\\copy_internals.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.decorator',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\deprecated\\decorator.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.json',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\deprecated\\json.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.parse',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\deprecated\\parse.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.tools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\deprecated\\tools.py',
+   'PYMODULE'),
+  ('pydantic.env_settings',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\env_settings.py',
+   'PYMODULE'),
+  ('pydantic.error_wrappers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\error_wrappers.py',
+   'PYMODULE'),
+  ('pydantic.errors',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\errors.py',
+   'PYMODULE'),
+  ('pydantic.experimental',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\experimental\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.experimental.arguments_schema',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\experimental\\arguments_schema.py',
+   'PYMODULE'),
+  ('pydantic.experimental.pipeline',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\experimental\\pipeline.py',
+   'PYMODULE'),
+  ('pydantic.fields',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\fields.py',
+   'PYMODULE'),
+  ('pydantic.functional_serializers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\functional_serializers.py',
+   'PYMODULE'),
+  ('pydantic.functional_validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\functional_validators.py',
+   'PYMODULE'),
+  ('pydantic.generics',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\generics.py',
+   'PYMODULE'),
+  ('pydantic.json',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\json.py',
+   'PYMODULE'),
+  ('pydantic.json_schema',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\json_schema.py',
+   'PYMODULE'),
+  ('pydantic.main',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\main.py',
+   'PYMODULE'),
+  ('pydantic.mypy',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\mypy.py',
+   'PYMODULE'),
+  ('pydantic.networks',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\networks.py',
+   'PYMODULE'),
+  ('pydantic.parse',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\parse.py',
+   'PYMODULE'),
+  ('pydantic.plugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\plugin\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.plugin._loader',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\plugin\\_loader.py',
+   'PYMODULE'),
+  ('pydantic.plugin._schema_validator',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\plugin\\_schema_validator.py',
+   'PYMODULE'),
+  ('pydantic.root_model',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\root_model.py',
+   'PYMODULE'),
+  ('pydantic.schema',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\schema.py',
+   'PYMODULE'),
+  ('pydantic.tools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\tools.py',
+   'PYMODULE'),
+  ('pydantic.type_adapter',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\type_adapter.py',
+   'PYMODULE'),
+  ('pydantic.types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\types.py',
+   'PYMODULE'),
+  ('pydantic.typing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\typing.py',
+   'PYMODULE'),
+  ('pydantic.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\utils.py',
+   'PYMODULE'),
+  ('pydantic.v1',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.v1._hypothesis_plugin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\_hypothesis_plugin.py',
+   'PYMODULE'),
+  ('pydantic.v1.annotated_types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\annotated_types.py',
+   'PYMODULE'),
+  ('pydantic.v1.class_validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\class_validators.py',
+   'PYMODULE'),
+  ('pydantic.v1.color',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\color.py',
+   'PYMODULE'),
+  ('pydantic.v1.config',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\config.py',
+   'PYMODULE'),
+  ('pydantic.v1.dataclasses',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\dataclasses.py',
+   'PYMODULE'),
+  ('pydantic.v1.datetime_parse',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\datetime_parse.py',
+   'PYMODULE'),
+  ('pydantic.v1.decorator',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\decorator.py',
+   'PYMODULE'),
+  ('pydantic.v1.env_settings',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\env_settings.py',
+   'PYMODULE'),
+  ('pydantic.v1.error_wrappers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\error_wrappers.py',
+   'PYMODULE'),
+  ('pydantic.v1.errors',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\errors.py',
+   'PYMODULE'),
+  ('pydantic.v1.fields',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\fields.py',
+   'PYMODULE'),
+  ('pydantic.v1.generics',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\generics.py',
+   'PYMODULE'),
+  ('pydantic.v1.json',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\json.py',
+   'PYMODULE'),
+  ('pydantic.v1.main',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\main.py',
+   'PYMODULE'),
+  ('pydantic.v1.mypy',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\mypy.py',
+   'PYMODULE'),
+  ('pydantic.v1.networks',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\networks.py',
+   'PYMODULE'),
+  ('pydantic.v1.parse',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\parse.py',
+   'PYMODULE'),
+  ('pydantic.v1.schema',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\schema.py',
+   'PYMODULE'),
+  ('pydantic.v1.tools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\tools.py',
+   'PYMODULE'),
+  ('pydantic.v1.types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\types.py',
+   'PYMODULE'),
+  ('pydantic.v1.typing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\typing.py',
+   'PYMODULE'),
+  ('pydantic.v1.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\utils.py',
+   'PYMODULE'),
+  ('pydantic.v1.validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\validators.py',
+   'PYMODULE'),
+  ('pydantic.v1.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\v1\\version.py',
+   'PYMODULE'),
+  ('pydantic.validate_call_decorator',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\validate_call_decorator.py',
+   'PYMODULE'),
+  ('pydantic.validators',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\validators.py',
+   'PYMODULE'),
+  ('pydantic.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\version.py',
+   'PYMODULE'),
+  ('pydantic.warnings',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic\\warnings.py',
+   'PYMODULE'),
+  ('pydantic_core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic_core\\__init__.py',
+   'PYMODULE'),
+  ('pydantic_core.core_schema',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pydantic_core\\core_schema.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('python_multipart',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\python_multipart\\__init__.py',
+   'PYMODULE'),
+  ('python_multipart.decoders',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\python_multipart\\decoders.py',
+   'PYMODULE'),
+  ('python_multipart.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\python_multipart\\exceptions.py',
+   'PYMODULE'),
+  ('python_multipart.multipart',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\python_multipart\\multipart.py',
+   'PYMODULE'),
+  ('pythoncom',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('pywin',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin32_system32', '-', 'PYMODULE'),
+  ('pywintypes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\random.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('services', '-', 'PYMODULE'),
+  ('services.printer_service',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\services\\printer_service.py',
+   'PYMODULE'),
+  ('services.tmp_service',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\services\\tmp_service.py',
+   'PYMODULE'),
+  ('setuptools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._distutils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._log',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\_log.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\_modified.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.archive_util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_ext',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.numpy',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\numpy.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py39',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C.base',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\base.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.errors',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.msvc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\compilers\\C\\msvc.py',
+   'PYMODULE'),
+  ('setuptools._distutils.core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py',
+   'PYMODULE'),
+  ('setuptools._distutils.debug',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\debug.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dir_util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\dir_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dist',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\dist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.errors',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.file_util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\log.py',
+   'PYMODULE'),
+  ('setuptools._distutils.spawn',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\spawn.py',
+   'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.versionpredicate',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_importlib.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_normalization.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_path.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_reqs.py',
+   'PYMODULE'),
+  ('setuptools._shutil',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_shutil.py',
+   'PYMODULE'),
+  ('setuptools._static',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_static.py',
+   'PYMODULE'),
+  ('setuptools._vendor', '-', 'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat.py38',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._adapters',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._collections',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._functools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._itertools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._meta',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._text',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py311',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py39',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.android',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.api',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.macos',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.unix',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.windows',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_re.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.convert',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\convert.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.pack',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\pack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.tags',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.unpack',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\unpack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.metadata',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\util.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._elffile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._manylinux',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._musllinux',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._parser',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._structures',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._tokenizer',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.markers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.requirements',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.specifiers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.tags',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat.py310',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.glob',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\glob.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\command\\_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\command\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools.compat.py311',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\expand.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\config\\setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\discovery.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\errors.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\warnings.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\signal.py',
+   'PYMODULE'),
+  ('site',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\smtplib.py',
+   'PYMODULE'),
+  ('sniffio',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\sniffio\\__init__.py',
+   'PYMODULE'),
+  ('sniffio._impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\sniffio\\_impl.py',
+   'PYMODULE'),
+  ('sniffio._version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\sniffio\\_version.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('sortedcontainers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\sortedcontainers\\__init__.py',
+   'PYMODULE'),
+  ('sortedcontainers.sorteddict',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\sortedcontainers\\sorteddict.py',
+   'PYMODULE'),
+  ('sortedcontainers.sortedlist',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\sortedcontainers\\sortedlist.py',
+   'PYMODULE'),
+  ('sortedcontainers.sortedset',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\sortedcontainers\\sortedset.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('starlette',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\__init__.py',
+   'PYMODULE'),
+  ('starlette._exception_handler',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\_exception_handler.py',
+   'PYMODULE'),
+  ('starlette._utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\_utils.py',
+   'PYMODULE'),
+  ('starlette.applications',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\applications.py',
+   'PYMODULE'),
+  ('starlette.background',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\background.py',
+   'PYMODULE'),
+  ('starlette.concurrency',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\concurrency.py',
+   'PYMODULE'),
+  ('starlette.convertors',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\convertors.py',
+   'PYMODULE'),
+  ('starlette.datastructures',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\datastructures.py',
+   'PYMODULE'),
+  ('starlette.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\exceptions.py',
+   'PYMODULE'),
+  ('starlette.formparsers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\formparsers.py',
+   'PYMODULE'),
+  ('starlette.middleware',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('starlette.middleware.base',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\middleware\\base.py',
+   'PYMODULE'),
+  ('starlette.middleware.errors',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\middleware\\errors.py',
+   'PYMODULE'),
+  ('starlette.middleware.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\middleware\\exceptions.py',
+   'PYMODULE'),
+  ('starlette.requests',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\requests.py',
+   'PYMODULE'),
+  ('starlette.responses',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\responses.py',
+   'PYMODULE'),
+  ('starlette.routing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\routing.py',
+   'PYMODULE'),
+  ('starlette.staticfiles',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\staticfiles.py',
+   'PYMODULE'),
+  ('starlette.status',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\status.py',
+   'PYMODULE'),
+  ('starlette.types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\types.py',
+   'PYMODULE'),
+  ('starlette.websockets',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\starlette\\websockets.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sysconfig.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tomllib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\__init__.py',
+   'PYMODULE'),
+  ('tomllib._parser',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_parser.py',
+   'PYMODULE'),
+  ('tomllib._re',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_re.py',
+   'PYMODULE'),
+  ('tomllib._types',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tomllib\\_types.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('trio',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\__init__.py',
+   'PYMODULE'),
+  ('trio._abc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_abc.py',
+   'PYMODULE'),
+  ('trio._channel',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_channel.py',
+   'PYMODULE'),
+  ('trio._core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\__init__.py',
+   'PYMODULE'),
+  ('trio._core._asyncgens',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_asyncgens.py',
+   'PYMODULE'),
+  ('trio._core._concat_tb',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_concat_tb.py',
+   'PYMODULE'),
+  ('trio._core._entry_queue',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_entry_queue.py',
+   'PYMODULE'),
+  ('trio._core._exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('trio._core._generated_instrumentation',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_generated_instrumentation.py',
+   'PYMODULE'),
+  ('trio._core._generated_io_epoll',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_generated_io_epoll.py',
+   'PYMODULE'),
+  ('trio._core._generated_io_kqueue',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_generated_io_kqueue.py',
+   'PYMODULE'),
+  ('trio._core._generated_io_windows',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_generated_io_windows.py',
+   'PYMODULE'),
+  ('trio._core._generated_run',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_generated_run.py',
+   'PYMODULE'),
+  ('trio._core._instrumentation',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_instrumentation.py',
+   'PYMODULE'),
+  ('trio._core._io_common',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_io_common.py',
+   'PYMODULE'),
+  ('trio._core._io_epoll',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_io_epoll.py',
+   'PYMODULE'),
+  ('trio._core._io_kqueue',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_io_kqueue.py',
+   'PYMODULE'),
+  ('trio._core._io_windows',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_io_windows.py',
+   'PYMODULE'),
+  ('trio._core._ki',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_ki.py',
+   'PYMODULE'),
+  ('trio._core._local',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_local.py',
+   'PYMODULE'),
+  ('trio._core._mock_clock',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_mock_clock.py',
+   'PYMODULE'),
+  ('trio._core._parking_lot',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_parking_lot.py',
+   'PYMODULE'),
+  ('trio._core._run',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_run.py',
+   'PYMODULE'),
+  ('trio._core._run_context',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_run_context.py',
+   'PYMODULE'),
+  ('trio._core._thread_cache',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_thread_cache.py',
+   'PYMODULE'),
+  ('trio._core._traps',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_traps.py',
+   'PYMODULE'),
+  ('trio._core._unbounded_queue',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_unbounded_queue.py',
+   'PYMODULE'),
+  ('trio._core._wakeup_socketpair',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_wakeup_socketpair.py',
+   'PYMODULE'),
+  ('trio._core._windows_cffi',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_core\\_windows_cffi.py',
+   'PYMODULE'),
+  ('trio._deprecate',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_deprecate.py',
+   'PYMODULE'),
+  ('trio._dtls',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_dtls.py',
+   'PYMODULE'),
+  ('trio._file_io',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_file_io.py',
+   'PYMODULE'),
+  ('trio._highlevel_generic',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_highlevel_generic.py',
+   'PYMODULE'),
+  ('trio._highlevel_open_tcp_listeners',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_highlevel_open_tcp_listeners.py',
+   'PYMODULE'),
+  ('trio._highlevel_open_tcp_stream',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_highlevel_open_tcp_stream.py',
+   'PYMODULE'),
+  ('trio._highlevel_open_unix_stream',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_highlevel_open_unix_stream.py',
+   'PYMODULE'),
+  ('trio._highlevel_serve_listeners',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_highlevel_serve_listeners.py',
+   'PYMODULE'),
+  ('trio._highlevel_socket',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_highlevel_socket.py',
+   'PYMODULE'),
+  ('trio._highlevel_ssl_helpers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_highlevel_ssl_helpers.py',
+   'PYMODULE'),
+  ('trio._path',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_path.py',
+   'PYMODULE'),
+  ('trio._signals',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_signals.py',
+   'PYMODULE'),
+  ('trio._socket',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_socket.py',
+   'PYMODULE'),
+  ('trio._ssl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_ssl.py',
+   'PYMODULE'),
+  ('trio._subprocess',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_subprocess.py',
+   'PYMODULE'),
+  ('trio._subprocess_platform',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_subprocess_platform\\__init__.py',
+   'PYMODULE'),
+  ('trio._subprocess_platform.kqueue',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_subprocess_platform\\kqueue.py',
+   'PYMODULE'),
+  ('trio._subprocess_platform.waitid',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_subprocess_platform\\waitid.py',
+   'PYMODULE'),
+  ('trio._subprocess_platform.windows',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_subprocess_platform\\windows.py',
+   'PYMODULE'),
+  ('trio._sync',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_sync.py',
+   'PYMODULE'),
+  ('trio._threads',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_threads.py',
+   'PYMODULE'),
+  ('trio._timeouts',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_timeouts.py',
+   'PYMODULE'),
+  ('trio._unix_pipes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_unix_pipes.py',
+   'PYMODULE'),
+  ('trio._util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_util.py',
+   'PYMODULE'),
+  ('trio._version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_version.py',
+   'PYMODULE'),
+  ('trio._wait_for_object',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_wait_for_object.py',
+   'PYMODULE'),
+  ('trio._windows_pipes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\_windows_pipes.py',
+   'PYMODULE'),
+  ('trio.abc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\abc.py',
+   'PYMODULE'),
+  ('trio.from_thread',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\from_thread.py',
+   'PYMODULE'),
+  ('trio.lowlevel',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\lowlevel.py',
+   'PYMODULE'),
+  ('trio.socket',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\socket.py',
+   'PYMODULE'),
+  ('trio.testing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\testing\\__init__.py',
+   'PYMODULE'),
+  ('trio.testing._check_streams',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\testing\\_check_streams.py',
+   'PYMODULE'),
+  ('trio.testing._checkpoints',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\testing\\_checkpoints.py',
+   'PYMODULE'),
+  ('trio.testing._memory_streams',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\testing\\_memory_streams.py',
+   'PYMODULE'),
+  ('trio.testing._network',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\testing\\_network.py',
+   'PYMODULE'),
+  ('trio.testing._raises_group',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\testing\\_raises_group.py',
+   'PYMODULE'),
+  ('trio.testing._sequencer',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\testing\\_sequencer.py',
+   'PYMODULE'),
+  ('trio.testing._trio_test',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\testing\\_trio_test.py',
+   'PYMODULE'),
+  ('trio.to_thread',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\trio\\to_thread.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tty.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\typing.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('typing_inspection',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\typing_inspection\\__init__.py',
+   'PYMODULE'),
+  ('typing_inspection.introspection',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\typing_inspection\\introspection.py',
+   'PYMODULE'),
+  ('typing_inspection.typing_objects',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\typing_inspection\\typing_objects.py',
+   'PYMODULE'),
+  ('tzdata',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Africa',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Africa\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.America',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.America.Argentina',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Argentina\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.America.Indiana',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Indiana\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.America.Kentucky',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\Kentucky\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.America.North_Dakota',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\America\\North_Dakota\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Antarctica',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Antarctica\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Arctic',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Arctic\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Asia',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Asia\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Atlantic',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Atlantic\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Australia',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Australia\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Brazil',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Brazil\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Canada',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Canada\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Chile',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Chile\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Etc',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Etc\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Europe',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Europe\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Indian',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Indian\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Mexico',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Mexico\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.Pacific',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\Pacific\\__init__.py',
+   'PYMODULE'),
+  ('tzdata.zoneinfo.US',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\tzdata\\zoneinfo\\US\\__init__.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.mock',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\mock.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('uvicorn',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.__main__',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\__main__.py',
+   'PYMODULE'),
+  ('uvicorn._subprocess',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\_subprocess.py',
+   'PYMODULE'),
+  ('uvicorn._types',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\_types.py',
+   'PYMODULE'),
+  ('uvicorn.config',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\config.py',
+   'PYMODULE'),
+  ('uvicorn.importer',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\importer.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\lifespan\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan.off',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\lifespan\\off.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan.on',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\lifespan\\on.py',
+   'PYMODULE'),
+  ('uvicorn.logging',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\logging.py',
+   'PYMODULE'),
+  ('uvicorn.loops',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\loops\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.loops.asyncio',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\loops\\asyncio.py',
+   'PYMODULE'),
+  ('uvicorn.loops.auto',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\loops\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.loops.uvloop',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\loops\\uvloop.py',
+   'PYMODULE'),
+  ('uvicorn.main',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\main.py',
+   'PYMODULE'),
+  ('uvicorn.middleware',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.asgi2',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\middleware\\asgi2.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.message_logger',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\middleware\\message_logger.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.proxy_headers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\middleware\\proxy_headers.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.wsgi',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\middleware\\wsgi.py',
+   'PYMODULE'),
+  ('uvicorn.protocols',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.auto',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.flow_control',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\flow_control.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.h11_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\h11_impl.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.httptools_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\httptools_impl.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.utils',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\utils.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\websockets\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets.auto',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\websockets\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets.websockets_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\websockets\\websockets_impl.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets.wsproto_impl',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\protocols\\websockets\\wsproto_impl.py',
+   'PYMODULE'),
+  ('uvicorn.server',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\server.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\supervisors\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.basereload',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\supervisors\\basereload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.multiprocess',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\supervisors\\multiprocess.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.statreload',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\supervisors\\statreload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.watchfilesreload',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\supervisors\\watchfilesreload.py',
+   'PYMODULE'),
+  ('uvicorn.workers',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\uvicorn\\workers.py',
+   'PYMODULE'),
+  ('wand',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\__init__.py',
+   'PYMODULE'),
+  ('wand.api',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\api.py',
+   'PYMODULE'),
+  ('wand.assertions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\assertions.py',
+   'PYMODULE'),
+  ('wand.cdefs',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\__init__.py',
+   'PYMODULE'),
+  ('wand.cdefs.core',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\core.py',
+   'PYMODULE'),
+  ('wand.cdefs.drawing_wand',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\drawing_wand.py',
+   'PYMODULE'),
+  ('wand.cdefs.magick_image',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\magick_image.py',
+   'PYMODULE'),
+  ('wand.cdefs.magick_property',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\magick_property.py',
+   'PYMODULE'),
+  ('wand.cdefs.magick_wand',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\magick_wand.py',
+   'PYMODULE'),
+  ('wand.cdefs.pixel_iterator',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\pixel_iterator.py',
+   'PYMODULE'),
+  ('wand.cdefs.pixel_wand',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\pixel_wand.py',
+   'PYMODULE'),
+  ('wand.cdefs.structures',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\structures.py',
+   'PYMODULE'),
+  ('wand.cdefs.wandtypes',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\cdefs\\wandtypes.py',
+   'PYMODULE'),
+  ('wand.color',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\color.py',
+   'PYMODULE'),
+  ('wand.compat',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\compat.py',
+   'PYMODULE'),
+  ('wand.drawing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\drawing.py',
+   'PYMODULE'),
+  ('wand.exceptions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\exceptions.py',
+   'PYMODULE'),
+  ('wand.font',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\font.py',
+   'PYMODULE'),
+  ('wand.image',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\image.py',
+   'PYMODULE'),
+  ('wand.resource',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\resource.py',
+   'PYMODULE'),
+  ('wand.sequence',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\sequence.py',
+   'PYMODULE'),
+  ('wand.version',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wand\\version.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('win32com',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('win32com.server',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('win32com.util',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32evtlogutil',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32\\lib\\win32evtlogutil.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('winerror',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('wsproto',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wsproto\\__init__.py',
+   'PYMODULE'),
+  ('wsproto.connection',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wsproto\\connection.py',
+   'PYMODULE'),
+  ('wsproto.events',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wsproto\\events.py',
+   'PYMODULE'),
+  ('wsproto.extensions',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wsproto\\extensions.py',
+   'PYMODULE'),
+  ('wsproto.frame_protocol',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wsproto\\frame_protocol.py',
+   'PYMODULE'),
+  ('wsproto.handshake',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wsproto\\handshake.py',
+   'PYMODULE'),
+  ('wsproto.typing',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wsproto\\typing.py',
+   'PYMODULE'),
+  ('wsproto.utilities',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\wsproto\\utilities.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc.server',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\xmlrpc\\server.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipimport.py',
+   'PYMODULE'),
+  ('zoneinfo',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('zoneinfo._common',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zoneinfo\\_common.py',
+   'PYMODULE'),
+  ('zoneinfo._tzpath',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zoneinfo\\_tzpath.py',
+   'PYMODULE'),
+  ('zoneinfo._zoneinfo',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zoneinfo\\_zoneinfo.py',
+   'PYMODULE')])
