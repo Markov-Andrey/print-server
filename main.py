@@ -75,21 +75,7 @@ async def handle(
     return print_file(printer, format, filename, data)
 
 
-@app.get("/test")
-async def handle():
-    try:
-        file_path = os.path.join(os.getcwd(), "test.avif")
-        if not os.path.exists(file_path):
-            return {"message": "File not found"}
-        with open(file_path, "rb") as file:
-            file_data = file.read()
-        encoded_data = base64.b64encode(file_data).decode("utf-8")
-        return {"file_base64": encoded_data}
-    except Exception as e:
-        return {"message": f"Error: {str(e)}"}
-
-
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=80)
