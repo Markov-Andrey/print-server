@@ -11,13 +11,6 @@ from api.print_file import print_file
 from services.tmp_service import clean_old_tmp_dirs
 from contextlib import asynccontextmanager
 
-app = FastAPI()
-load_dotenv()
-APP_KEY = os.getenv("APP_KEY")
-
-static_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
-app.mount("/static", StaticFiles(directory=static_dir), name="static")
-
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -33,8 +26,11 @@ async def lifespan(app: FastAPI):
     yield
     task.cancel()
 
-
 app = FastAPI(lifespan=lifespan)
+load_dotenv()
+APP_KEY = os.getenv("APP_KEY")
+static_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
+app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
 
 def token_validation(request: Request):

@@ -227,28 +227,23 @@
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\Pythonwin\\mfc140u.dll',
    'BINARY'),
+  ('static\\111.jpg',
+   'C:\\Program Files\\OSPanel\\domains\\print-server\\static\\111.jpg',
+   'DATA'),
   ('static\\docs.html',
    'C:\\Program Files\\OSPanel\\domains\\print-server\\static\\docs.html',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
-   'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
-   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
-   'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
    'C:\\Program '
@@ -257,6 +252,14 @@
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Program '
@@ -267,13 +270,13 @@
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\METADATA',
    'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
-   'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
-   'DATA'),
   ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\INSTALLER',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
    'DATA'),
   ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\WHEEL',
    'C:\\Program '
@@ -283,13 +286,13 @@
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\entry_points.txt',
    'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
-   'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
-   'DATA'),
   ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
    'DATA'),
   ('base_library.zip',
    'C:\\Program '

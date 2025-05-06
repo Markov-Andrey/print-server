@@ -14,7 +14,10 @@
  {},
  0,
  [],
- [('static\\docs.html',
+ [('static\\111.jpg',
+   'C:\\Program Files\\OSPanel\\domains\\print-server\\static\\111.jpg',
+   'DATA'),
+  ('static\\docs.html',
    'C:\\Program Files\\OSPanel\\domains\\print-server\\static\\docs.html',
    'DATA')],
  '3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit '
@@ -1579,10 +1582,6 @@
    'C:\\Users\\Прадиус '
    'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\plistlib.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\Прадиус '
-   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
-   'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Прадиус '
    'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
@@ -1590,6 +1589,10 @@
   ('_py_abc',
    'C:\\Users\\Прадиус '
    'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Прадиус '
+   'Нова\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
    'PYMODULE'),
   ('uvicorn',
    'C:\\Program '
@@ -3733,28 +3736,23 @@
    'BINARY')],
  [],
  [],
- [('static\\docs.html',
+ [('static\\111.jpg',
+   'C:\\Program Files\\OSPanel\\domains\\print-server\\static\\111.jpg',
+   'DATA'),
+  ('static\\docs.html',
    'C:\\Program Files\\OSPanel\\domains\\print-server\\static\\docs.html',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
-   'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
-   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
-   'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
    'C:\\Program '
@@ -3763,6 +3761,14 @@
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Program '
@@ -3773,13 +3779,13 @@
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\METADATA',
    'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
-   'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
-   'DATA'),
   ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\INSTALLER',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\LICENSE.txt',
    'DATA'),
   ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\WHEEL',
    'C:\\Program '
@@ -3789,13 +3795,13 @@
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\entry_points.txt',
    'DATA'),
-  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
-   'C:\\Program '
-   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
-   'DATA'),
   ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED',
    'C:\\Program '
    'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
+   'C:\\Program '
+   'Files\\OSPanel\\domains\\print-server\\venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.45.1.dist-info\\RECORD',
    'DATA'),
   ('base_library.zip',
    'C:\\Program '

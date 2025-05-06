@@ -58,6 +58,18 @@
             padding: 2px 15px 2px 15px;
             margin: 0;
         }
+        .img-block {
+            margin: 20px auto;
+            width: fit-content;
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -76,6 +88,9 @@
         </p>
         <details>
             <summary>Parameters:</summary>
+            <div class="img-block">
+                <img src="/static/111.jpg" alt="1" class="img">
+            </div>
             <div class="param"><code>printer</code> (str) — имя принтера (обязательный)</div>
             <div class="param"><code>width</code> (int) — ширина в миллиметрах одной страницы/этикетки (обязательный)</div>
             <div class="param"><code>height</code> (int) — высота в миллиметрах (обязательный)</div>
