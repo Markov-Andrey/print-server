@@ -3,3 +3,6 @@ pillow
 wand
 pywin32
 uvicorn
+python-multipart
+python-dotenv
+pyinstaller

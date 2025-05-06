@@ -1,15 +1,15 @@
-from fastapi import FastAPI, Form
+import os
+import asyncio
+from fastapi import FastAPI, Form, Request, HTTPException, status, Depends
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse, Response
-from fastapi import Request, HTTPException, status, Depends
-from typing import List
+from fastapi.responses import Response
 from starlette.responses import FileResponse
+from dotenv import load_dotenv
 from api.print_svg import print_svg
 from api.print_doc import print_doc
 from api.print_file import print_file
-import os
-import base64
-from dotenv import load_dotenv
+from services.tmp_service import clean_old_tmp_dirs
+from contextlib import asynccontextmanager
 
 app = FastAPI()
 load_dotenv()
@@ -19,13 +19,28 @@ static_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
 app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    async def periodic_cleaning():
+        while True:
+            try:
+                clean_old_tmp_dirs(30)
+            except Exception as e:
+                print(f"[TMP CLEAN ERROR]: {e}")
+            await asyncio.sleep(86400)
+
+    task = asyncio.create_task(periodic_cleaning())
+    yield
+    task.cancel()
+
+
+app = FastAPI(lifespan=lifespan)
+
+
 def token_validation(request: Request):
     token = request.headers.get("X-Token")
     if token != APP_KEY:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Token does not match or is missing.",
-        )
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token does not match or is missing.")
     return token
 
 
@@ -45,7 +60,7 @@ async def handle(
         printer: str = Form(None),
         width: int = Form(...),
         height: int = Form(...),
-        data: List[str] = Form(...),
+        data: list = Form(...),
         grid: int = Form(1),
         gap: int = Form(0),
         padding_x: int = Form(0),
@@ -78,4 +93,4 @@ async def handle(
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=80)
+    uvicorn.run(app, host="0.0.0.0", port=8000)

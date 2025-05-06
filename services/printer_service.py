@@ -1,6 +1,9 @@
 import win32print
 import subprocess
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def get_printer_dpi(printer):
@@ -15,7 +18,7 @@ def get_printer_dpi(printer):
 
 
 def send_file_to_printer(tmp, printer):
-    irfanview_path = os.path.join(os.getcwd(), "tools", "irfan_view", "i_view64.exe")
+    irfanview_path = os.getenv("IRFAN_VIEW")
     cmd = f'"{irfanview_path}" "{tmp}" /print="{printer}" /silent /one'
     result = subprocess.run(cmd, shell=True)
 

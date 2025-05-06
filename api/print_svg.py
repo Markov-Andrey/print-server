@@ -16,7 +16,7 @@ async def handle(
         printer: str = Form(None),
         width: int = Form(...),
         height: int = Form(...),
-        data: List[str] = Form(...),
+        data: list = Form(...),
         grid: int = Form(1),
         gap: int = Form(0),
         padding_x: int = Form(0),
@@ -32,7 +32,7 @@ def mm_to_px(value, dpi):
     return int(value / 25.4 * dpi)
 
 
-def print_svg(printer: str, width: int, height: int, data: list[str], grid: int, gap: int, padding_x: int,
+def print_svg(printer: str, width: int, height: int, data: list, grid: int, gap: int, padding_x: int,
               padding_y: int):
     if not printer:
         printer = get_default_printer()
