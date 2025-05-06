@@ -19,7 +19,7 @@ def get_printer_dpi(printer):
 
 def send_file_to_printer(tmp, printer):
     irfanview_path = os.getenv("IRFAN_VIEW")
-    cmd = f'"{irfanview_path}" "{tmp}" /print="{printer}" /silent /one'
+    cmd = f'"{irfanview_path}" "{tmp}" /print="{printer}" /silent /one /ini="C:\\not"'
     result = subprocess.run(cmd, shell=True)
 
     if result.returncode != 0:
