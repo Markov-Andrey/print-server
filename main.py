@@ -45,7 +45,7 @@ async def serve_documentation():
     return FileResponse(path=os.path.join(static_dir, "docs.html"), media_type='text/html')
 
 
-@app.get("/favicon.ico", response_class=Response)
+@app.get("/favicon.ico", response_class=Response) # мини-костыль, чтобы не получать warning на сервере
 async def favicon():
     return Response(status_code=204)
 
