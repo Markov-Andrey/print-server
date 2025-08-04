@@ -2,6 +2,7 @@ import win32print
 import subprocess
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
 load_dotenv()
 
@@ -18,8 +19,16 @@ def get_printer_dpi(printer):
 
 
 def send_file_to_printer(tmp, printer):
-    irfanview_path = os.getenv("IRFAN_VIEW")
-    cmd = f'"{irfanview_path}" "{tmp}" /print="{printer}" /silent /one /ini="C:\\not"'
+    rel_path = os.getenv("IRFAN_VIEW")
+    if not rel_path:
+        raise RuntimeError("IRFAN_VIEW not set")
+
+    irfanview_path = (Path(__file__).resolve().parent.parent / rel_path).resolve()
+    if not irfanview_path.exists():
+        raise FileNotFoundError(f"{irfanview_path} not found")
+
+    tmp_path = Path(tmp).resolve()
+    cmd = f'"{irfanview_path}" "{tmp_path}" /print="{printer}" /silent /one /ini="C:\\not"'
     result = subprocess.run(cmd, shell=True)
 
     if result.returncode != 0:
